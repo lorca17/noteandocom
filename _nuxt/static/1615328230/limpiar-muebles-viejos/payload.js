@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/limpiar-muebles-viejos", {data:[{}],fetch:{},mutations:void 0});

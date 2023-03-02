@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/conectar-una-lavadora", {data:[{}],fetch:{},mutations:void 0});

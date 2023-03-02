@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/asientos-de-ducha", {data:[{}],fetch:{},mutations:void 0});

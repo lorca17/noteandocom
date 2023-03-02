@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bloque-y-contrabajos-para-tomar-notas-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

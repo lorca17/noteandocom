@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/herramientas-basicas-para-iniciar-tareas-de-hacer-hazlo", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/limpiar-la-chimenea", {data:[{}],fetch:{},mutations:void 0});

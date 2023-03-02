@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mantenimiento-de-los-grifos", {data:[{}],fetch:{},mutations:void 0});

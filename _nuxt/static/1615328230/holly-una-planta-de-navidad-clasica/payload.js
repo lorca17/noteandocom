@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/holly-una-planta-de-navidad-clasica", {data:[{}],fetch:{},mutations:void 0});

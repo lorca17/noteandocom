@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lavanda-una-planta-aromatica-y-ornamental", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tragaluces-tubulares-luz-solar-en-todas-partes", {data:[{}],fetch:{},mutations:void 0});

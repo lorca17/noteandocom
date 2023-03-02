@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/armarios-estrechos-para-aprovechar-los-espacios-reducidos", {data:[{}],fetch:{},mutations:void 0});

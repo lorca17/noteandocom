@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-cipres-un-arbol-peculiar", {data:[{}],fetch:{},mutations:void 0});

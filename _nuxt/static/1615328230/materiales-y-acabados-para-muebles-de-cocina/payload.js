@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/materiales-y-acabados-para-muebles-de-cocina", {data:[{}],fetch:{},mutations:void 0});

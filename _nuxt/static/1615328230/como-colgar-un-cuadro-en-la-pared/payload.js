@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-colgar-un-cuadro-en-la-pared", {data:[{}],fetch:{},mutations:void 0});

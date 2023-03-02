@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/materiales-de-embalaje", {data:[{}],fetch:{},mutations:void 0});

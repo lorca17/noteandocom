@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/iluminar-las-areas-de-paso", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/esconder-las-unas-en-un-mueble", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/violeta-una-pequena-planta-muy-fragante", {data:[{}],fetch:{},mutations:void 0});

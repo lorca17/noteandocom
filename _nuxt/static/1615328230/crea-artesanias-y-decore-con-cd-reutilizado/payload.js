@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/crea-artesanias-y-decore-con-cd-reutilizado", {data:[{}],fetch:{},mutations:void 0});

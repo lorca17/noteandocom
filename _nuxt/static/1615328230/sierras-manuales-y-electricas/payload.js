@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sierras-manuales-y-electricas", {data:[{}],fetch:{},mutations:void 0});

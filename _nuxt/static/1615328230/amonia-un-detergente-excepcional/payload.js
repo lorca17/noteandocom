@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/amonia-un-detergente-excepcional", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-calcular-la-cantidad-de-luz-adecuada-para-la-habitacion", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/telefonos-antiguos-un-toque-vintage-en-el-dormitorio", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/identificar-una-planta-enferma", {data:[{}],fetch:{},mutations:void 0});

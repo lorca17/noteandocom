@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ajustar-el-bano", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-alacena-una-decoracion-util-en-la-cocina-y-el-comedor", {data:[{}],fetch:{},mutations:void 0});

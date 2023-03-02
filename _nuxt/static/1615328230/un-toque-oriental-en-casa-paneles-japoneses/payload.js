@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-toque-oriental-en-casa-paneles-japoneses", {data:[{}],fetch:{},mutations:void 0});

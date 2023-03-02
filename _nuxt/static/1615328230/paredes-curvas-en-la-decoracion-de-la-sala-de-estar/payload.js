@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/paredes-curvas-en-la-decoracion-de-la-sala-de-estar", {data:[{}],fetch:{},mutations:void 0});

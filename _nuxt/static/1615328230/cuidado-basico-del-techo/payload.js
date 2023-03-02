@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuidado-basico-del-techo", {data:[{}],fetch:{},mutations:void 0});

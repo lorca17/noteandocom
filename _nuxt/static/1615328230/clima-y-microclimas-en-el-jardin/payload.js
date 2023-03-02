@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/clima-y-microclimas-en-el-jardin", {data:[{}],fetch:{},mutations:void 0});

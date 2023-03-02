@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/las-lamparas-mas-adecuadas-para-cada-espacio-domestico", {data:[{}],fetch:{},mutations:void 0});

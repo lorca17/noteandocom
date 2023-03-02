@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/barcos-para-salvar-la-salsa-de-tomate-natural", {data:[{}],fetch:{},mutations:void 0});

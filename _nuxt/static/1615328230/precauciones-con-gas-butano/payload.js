@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/precauciones-con-gas-butano", {data:[{}],fetch:{},mutations:void 0});

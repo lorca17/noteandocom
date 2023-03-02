@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diseno-de-un-jardin-japones", {data:[{}],fetch:{},mutations:void 0});

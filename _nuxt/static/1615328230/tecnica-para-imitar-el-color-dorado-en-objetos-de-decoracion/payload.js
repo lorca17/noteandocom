@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnica-para-imitar-el-color-dorado-en-objetos-de-decoracion", {data:[{}],fetch:{},mutations:void 0});

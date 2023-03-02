@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/disenar-una-red-de-ventilacion-natural", {data:[{}],fetch:{},mutations:void 0});

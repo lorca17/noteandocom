@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sistemas-electricos-sin-obras", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flor-de-loto-una-planta-acuatica-habitual-en-estanques", {data:[{}],fetch:{},mutations:void 0});

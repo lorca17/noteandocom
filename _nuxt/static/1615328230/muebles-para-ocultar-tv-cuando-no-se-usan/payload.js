@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/muebles-para-ocultar-tv-cuando-no-se-usan", {data:[{}],fetch:{},mutations:void 0});

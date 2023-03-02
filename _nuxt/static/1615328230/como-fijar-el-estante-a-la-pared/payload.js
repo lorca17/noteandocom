@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-fijar-el-estante-a-la-pared", {data:[{}],fetch:{},mutations:void 0});

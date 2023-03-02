@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mesas-de-corte-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

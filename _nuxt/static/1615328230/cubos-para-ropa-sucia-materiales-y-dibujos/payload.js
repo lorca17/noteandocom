@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cubos-para-ropa-sucia-materiales-y-dibujos", {data:[{}],fetch:{},mutations:void 0});

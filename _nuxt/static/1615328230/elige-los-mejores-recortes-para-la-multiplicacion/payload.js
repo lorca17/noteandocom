@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/elige-los-mejores-recortes-para-la-multiplicacion", {data:[{}],fetch:{},mutations:void 0});

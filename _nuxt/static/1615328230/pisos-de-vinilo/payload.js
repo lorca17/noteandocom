@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pisos-de-vinilo", {data:[{}],fetch:{},mutations:void 0});

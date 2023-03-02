@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lamparas-con-pantalla-donde-son-adecuados", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/arreglar-los-puertos-de-los-gabinetes", {data:[{}],fetch:{},mutations:void 0});

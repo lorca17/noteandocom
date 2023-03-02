@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-plato-de-jabon-antapille", {data:[{}],fetch:{},mutations:void 0});

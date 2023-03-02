@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/humidificadores-y-purificadores-de-aire", {data:[{}],fetch:{},mutations:void 0});

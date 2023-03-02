@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-hacer-flores-de-papel", {data:[{}],fetch:{},mutations:void 0});

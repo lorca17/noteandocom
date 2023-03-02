@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/aligerar-el-dormitorio", {data:[{}],fetch:{},mutations:void 0});

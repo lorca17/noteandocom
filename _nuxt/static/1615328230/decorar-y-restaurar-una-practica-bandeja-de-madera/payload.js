@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-y-restaurar-una-practica-bandeja-de-madera", {data:[{}],fetch:{},mutations:void 0});

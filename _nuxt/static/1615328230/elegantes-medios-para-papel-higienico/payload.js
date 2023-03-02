@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/elegantes-medios-para-papel-higienico", {data:[{}],fetch:{},mutations:void 0});

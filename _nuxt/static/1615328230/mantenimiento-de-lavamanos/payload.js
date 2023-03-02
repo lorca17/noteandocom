@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mantenimiento-de-lavamanos", {data:[{}],fetch:{},mutations:void 0});

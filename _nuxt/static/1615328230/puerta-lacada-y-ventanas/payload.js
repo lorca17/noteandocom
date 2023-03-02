@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/puerta-lacada-y-ventanas", {data:[{}],fetch:{},mutations:void 0});

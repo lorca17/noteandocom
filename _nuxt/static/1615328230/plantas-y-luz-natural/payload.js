@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/plantas-y-luz-natural", {data:[{}],fetch:{},mutations:void 0});

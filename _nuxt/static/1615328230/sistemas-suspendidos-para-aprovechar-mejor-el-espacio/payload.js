@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sistemas-suspendidos-para-aprovechar-mejor-el-espacio", {data:[{}],fetch:{},mutations:void 0});

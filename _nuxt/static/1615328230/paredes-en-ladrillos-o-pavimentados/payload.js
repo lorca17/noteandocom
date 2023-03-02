@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/paredes-en-ladrillos-o-pavimentados", {data:[{}],fetch:{},mutations:void 0});

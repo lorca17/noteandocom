@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mejorar-el-riego", {data:[{}],fetch:{},mutations:void 0});

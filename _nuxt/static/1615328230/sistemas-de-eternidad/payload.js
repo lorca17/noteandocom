@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sistemas-de-eternidad", {data:[{}],fetch:{},mutations:void 0});

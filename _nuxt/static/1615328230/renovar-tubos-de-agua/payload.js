@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/renovar-tubos-de-agua", {data:[{}],fetch:{},mutations:void 0});

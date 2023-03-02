@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/puertas-plegables", {data:[{}],fetch:{},mutations:void 0});

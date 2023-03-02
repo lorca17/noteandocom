@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-puf-el-lugar-ideal-para-una-sala-de-estar-moderna-y-juvenil", {data:[{}],fetch:{},mutations:void 0});

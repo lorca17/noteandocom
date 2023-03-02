@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tipos-y-usos-de-los-alicates", {data:[{}],fetch:{},mutations:void 0});

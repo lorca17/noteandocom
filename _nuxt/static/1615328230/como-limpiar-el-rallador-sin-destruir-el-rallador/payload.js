@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-limpiar-el-rallador-sin-destruir-el-rallador", {data:[{}],fetch:{},mutations:void 0});

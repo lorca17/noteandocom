@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pisos-rusticos-eleccion-y-mantenimiento", {data:[{}],fetch:{},mutations:void 0});

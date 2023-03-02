@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-altavoces-estan-integrados-en-la-decoracion-del-salon", {data:[{}],fetch:{},mutations:void 0});

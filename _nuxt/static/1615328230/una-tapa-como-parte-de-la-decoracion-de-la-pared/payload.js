@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/una-tapa-como-parte-de-la-decoracion-de-la-pared", {data:[{}],fetch:{},mutations:void 0});

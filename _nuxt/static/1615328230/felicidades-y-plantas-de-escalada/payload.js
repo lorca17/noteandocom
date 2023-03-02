@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/felicidades-y-plantas-de-escalada", {data:[{}],fetch:{},mutations:void 0});

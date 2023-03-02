@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/estopa-para-evitar-fugas-de-agua", {data:[{}],fetch:{},mutations:void 0});

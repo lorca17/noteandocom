@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cola-de-animales-para-la-restauracion", {data:[{}],fetch:{},mutations:void 0});

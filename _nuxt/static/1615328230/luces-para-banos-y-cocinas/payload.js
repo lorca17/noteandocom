@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/luces-para-banos-y-cocinas", {data:[{}],fetch:{},mutations:void 0});

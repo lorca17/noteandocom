@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/perras-funcionalidad-y-estilo-en-la-biblioteca", {data:[{}],fetch:{},mutations:void 0});

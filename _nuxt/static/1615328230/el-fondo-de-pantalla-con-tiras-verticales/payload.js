@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-fondo-de-pantalla-con-tiras-verticales", {data:[{}],fetch:{},mutations:void 0});

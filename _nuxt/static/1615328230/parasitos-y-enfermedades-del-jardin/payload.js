@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/parasitos-y-enfermedades-del-jardin", {data:[{}],fetch:{},mutations:void 0});

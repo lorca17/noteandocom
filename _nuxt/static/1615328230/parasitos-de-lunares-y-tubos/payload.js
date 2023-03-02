@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/parasitos-de-lunares-y-tubos", {data:[{}],fetch:{},mutations:void 0});

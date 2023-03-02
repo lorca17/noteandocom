@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-riego-para-cada-planta", {data:[{}],fetch:{},mutations:void 0});

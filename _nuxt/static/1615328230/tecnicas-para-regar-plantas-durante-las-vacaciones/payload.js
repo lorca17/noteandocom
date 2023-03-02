@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnicas-para-regar-plantas-durante-las-vacaciones", {data:[{}],fetch:{},mutations:void 0});

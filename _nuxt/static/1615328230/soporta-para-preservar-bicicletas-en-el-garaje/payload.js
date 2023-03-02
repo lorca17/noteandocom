@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/soporta-para-preservar-bicicletas-en-el-garaje", {data:[{}],fetch:{},mutations:void 0});

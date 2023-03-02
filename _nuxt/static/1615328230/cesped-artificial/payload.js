@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cesped-artificial", {data:[{}],fetch:{},mutations:void 0});

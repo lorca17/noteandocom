@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/una-decoracion-de-tocadiscos-musica-y-vintage-en-la-sala-de-estar", {data:[{}],fetch:{},mutations:void 0});

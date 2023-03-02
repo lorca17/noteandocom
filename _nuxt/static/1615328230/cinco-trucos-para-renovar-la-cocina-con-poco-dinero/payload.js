@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cinco-trucos-para-renovar-la-cocina-con-poco-dinero", {data:[{}],fetch:{},mutations:void 0});

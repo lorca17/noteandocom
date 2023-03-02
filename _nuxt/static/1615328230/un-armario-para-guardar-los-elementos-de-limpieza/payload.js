@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-armario-para-guardar-los-elementos-de-limpieza", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/consejos-para-colocar-una-alfombra", {data:[{}],fetch:{},mutations:void 0});

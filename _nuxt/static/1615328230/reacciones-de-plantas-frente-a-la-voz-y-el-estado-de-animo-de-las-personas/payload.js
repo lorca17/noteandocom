@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reacciones-de-plantas-frente-a-la-voz-y-el-estado-de-animo-de-las-personas", {data:[{}],fetch:{},mutations:void 0});

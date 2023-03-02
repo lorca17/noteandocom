@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/banos-para-ninos-decoracion-para-los-mas-pequenos", {data:[{}],fetch:{},mutations:void 0});

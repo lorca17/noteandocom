@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pintar-toques-en-las-paredes", {data:[{}],fetch:{},mutations:void 0});

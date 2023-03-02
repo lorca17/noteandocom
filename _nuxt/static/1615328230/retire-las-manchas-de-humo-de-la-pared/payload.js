@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/retire-las-manchas-de-humo-de-la-pared", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fugas-en-tubos-de-pvc", {data:[{}],fetch:{},mutations:void 0});

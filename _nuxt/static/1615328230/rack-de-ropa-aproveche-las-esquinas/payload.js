@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/rack-de-ropa-aproveche-las-esquinas", {data:[{}],fetch:{},mutations:void 0});

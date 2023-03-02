@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/aplicacion-de-tintes-en-madera", {data:[{}],fetch:{},mutations:void 0});

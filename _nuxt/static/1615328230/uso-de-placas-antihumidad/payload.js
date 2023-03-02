@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/uso-de-placas-antihumidad", {data:[{}],fetch:{},mutations:void 0});

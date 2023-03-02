@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decora-las-paredes-con-la-tecnica-de-gothele", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/arboles-apropiados-para-pequenos-jardines", {data:[{}],fetch:{},mutations:void 0});

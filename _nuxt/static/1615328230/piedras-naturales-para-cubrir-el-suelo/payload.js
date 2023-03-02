@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/piedras-naturales-para-cubrir-el-suelo", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/haz-una-botella-para-preservar-el-vino", {data:[{}],fetch:{},mutations:void 0});

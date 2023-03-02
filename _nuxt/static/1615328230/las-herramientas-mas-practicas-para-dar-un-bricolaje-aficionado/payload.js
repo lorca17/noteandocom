@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/las-herramientas-mas-practicas-para-dar-un-bricolaje-aficionado", {data:[{}],fetch:{},mutations:void 0});

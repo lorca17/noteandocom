@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/trabajo-anterior-en-el-azulejos", {data:[{}],fetch:{},mutations:void 0});

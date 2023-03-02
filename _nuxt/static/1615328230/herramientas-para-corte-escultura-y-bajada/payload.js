@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/herramientas-para-corte-escultura-y-bajada", {data:[{}],fetch:{},mutations:void 0});

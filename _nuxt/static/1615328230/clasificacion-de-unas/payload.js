@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/clasificacion-de-unas", {data:[{}],fetch:{},mutations:void 0});

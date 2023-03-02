@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-color-de-la-salud-que-da-vida-al-bano", {data:[{}],fetch:{},mutations:void 0});

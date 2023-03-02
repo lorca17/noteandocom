@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/velas-decoradas-con-flores-secas", {data:[{}],fetch:{},mutations:void 0});

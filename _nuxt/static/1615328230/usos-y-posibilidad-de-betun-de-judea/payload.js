@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/usos-y-posibilidad-de-betun-de-judea", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-tecnica-de-decapacion", {data:[{}],fetch:{},mutations:void 0});

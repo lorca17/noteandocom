@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/piedras-para-proteger-un-arbol", {data:[{}],fetch:{},mutations:void 0});

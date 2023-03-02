@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mantenimiento-del-radiador", {data:[{}],fetch:{},mutations:void 0});

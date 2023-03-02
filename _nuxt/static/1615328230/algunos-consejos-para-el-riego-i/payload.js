@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/algunos-consejos-para-el-riego-i", {data:[{}],fetch:{},mutations:void 0});

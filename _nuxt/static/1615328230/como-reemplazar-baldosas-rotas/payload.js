@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-reemplazar-baldosas-rotas", {data:[{}],fetch:{},mutations:void 0});

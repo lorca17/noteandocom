@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bougainvillea-caracteristicas-de-un-gran-escalador", {data:[{}],fetch:{},mutations:void 0});

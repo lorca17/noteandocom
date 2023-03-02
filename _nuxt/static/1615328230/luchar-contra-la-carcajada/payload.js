@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/luchar-contra-la-carcajada", {data:[{}],fetch:{},mutations:void 0});

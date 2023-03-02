@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bambu-un-recurso-para-un-futuro-mejor", {data:[{}],fetch:{},mutations:void 0});

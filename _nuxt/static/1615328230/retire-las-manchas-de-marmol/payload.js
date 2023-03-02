@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/retire-las-manchas-de-marmol", {data:[{}],fetch:{},mutations:void 0});

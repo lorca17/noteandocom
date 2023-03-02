@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/colocar-pisos-de-corcho", {data:[{}],fetch:{},mutations:void 0});

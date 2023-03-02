@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuantos-cables-hay-en-una-casa", {data:[{}],fetch:{},mutations:void 0});

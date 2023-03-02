@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sugerencias-para-la-ubicacion-de-los-puntos-de-luz", {data:[{}],fetch:{},mutations:void 0});

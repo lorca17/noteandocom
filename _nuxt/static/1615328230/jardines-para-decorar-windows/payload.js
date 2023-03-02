@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jardines-para-decorar-windows", {data:[{}],fetch:{},mutations:void 0});

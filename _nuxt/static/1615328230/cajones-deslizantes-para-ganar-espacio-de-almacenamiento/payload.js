@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cajones-deslizantes-para-ganar-espacio-de-almacenamiento", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-estilo-colonial-en-la-decoracion", {data:[{}],fetch:{},mutations:void 0});

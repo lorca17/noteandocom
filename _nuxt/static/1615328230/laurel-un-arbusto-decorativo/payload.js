@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/laurel-un-arbusto-decorativo", {data:[{}],fetch:{},mutations:void 0});

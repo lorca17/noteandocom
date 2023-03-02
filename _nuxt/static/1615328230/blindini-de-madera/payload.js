@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blindini-de-madera", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tableros-de-luz-para-iluminar-el-jardin", {data:[{}],fetch:{},mutations:void 0});

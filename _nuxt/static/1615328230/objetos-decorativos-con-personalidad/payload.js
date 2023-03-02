@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/objetos-decorativos-con-personalidad", {data:[{}],fetch:{},mutations:void 0});

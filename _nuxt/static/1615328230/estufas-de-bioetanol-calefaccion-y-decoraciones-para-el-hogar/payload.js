@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/estufas-de-bioetanol-calefaccion-y-decoraciones-para-el-hogar", {data:[{}],fetch:{},mutations:void 0});

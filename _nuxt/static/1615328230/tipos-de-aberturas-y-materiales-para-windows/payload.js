@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tipos-de-aberturas-y-materiales-para-windows", {data:[{}],fetch:{},mutations:void 0});

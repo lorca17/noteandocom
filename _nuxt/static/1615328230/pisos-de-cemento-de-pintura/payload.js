@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pisos-de-cemento-de-pintura", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-tapa-un-aislante-muy-efectivo", {data:[{}],fetch:{},mutations:void 0});

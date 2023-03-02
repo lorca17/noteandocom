@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tipos-de-helechos-y-sus-caracteristicas", {data:[{}],fetch:{},mutations:void 0});

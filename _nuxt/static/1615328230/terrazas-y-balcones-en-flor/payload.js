@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/terrazas-y-balcones-en-flor", {data:[{}],fetch:{},mutations:void 0});

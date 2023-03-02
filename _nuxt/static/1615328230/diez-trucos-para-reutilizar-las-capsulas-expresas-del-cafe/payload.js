@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diez-trucos-para-reutilizar-las-capsulas-expresas-del-cafe", {data:[{}],fetch:{},mutations:void 0});

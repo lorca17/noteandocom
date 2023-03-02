@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/napters-modelos-y-dibujos-para-decorar-la-mesa", {data:[{}],fetch:{},mutations:void 0});

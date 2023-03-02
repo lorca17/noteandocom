@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/panel-de-aglomeracion-y-dm-como-difieren", {data:[{}],fetch:{},mutations:void 0});

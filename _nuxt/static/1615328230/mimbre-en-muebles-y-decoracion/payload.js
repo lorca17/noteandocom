@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mimbre-en-muebles-y-decoracion", {data:[{}],fetch:{},mutations:void 0});

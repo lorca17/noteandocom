@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/barras-y-rieles-para-tiendas-de-campana-elija-el-mejor-diseno", {data:[{}],fetch:{},mutations:void 0});

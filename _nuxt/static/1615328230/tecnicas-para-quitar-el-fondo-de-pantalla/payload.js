@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnicas-para-quitar-el-fondo-de-pantalla", {data:[{}],fetch:{},mutations:void 0});

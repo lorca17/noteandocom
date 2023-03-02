@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proteger-las-plantas-en-invierno", {data:[{}],fetch:{},mutations:void 0});

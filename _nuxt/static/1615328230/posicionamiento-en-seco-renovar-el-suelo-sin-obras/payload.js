@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/posicionamiento-en-seco-renovar-el-suelo-sin-obras", {data:[{}],fetch:{},mutations:void 0});

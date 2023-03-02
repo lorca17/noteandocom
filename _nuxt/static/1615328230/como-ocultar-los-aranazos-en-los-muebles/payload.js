@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-ocultar-los-aranazos-en-los-muebles", {data:[{}],fetch:{},mutations:void 0});

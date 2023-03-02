@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/amarillo-armonia-y-brillo-en-cada-estancia", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-instalar-una-placa-vitroceramica-o-placa-de-induccion", {data:[{}],fetch:{},mutations:void 0});

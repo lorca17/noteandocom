@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instale-un-ventilador-en-el-techo", {data:[{}],fetch:{},mutations:void 0});

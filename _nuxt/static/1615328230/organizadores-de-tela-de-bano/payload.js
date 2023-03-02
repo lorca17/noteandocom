@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/organizadores-de-tela-de-bano", {data:[{}],fetch:{},mutations:void 0});

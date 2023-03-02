@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/beneficios-y-desventajas-del-grupo", {data:[{}],fetch:{},mutations:void 0});

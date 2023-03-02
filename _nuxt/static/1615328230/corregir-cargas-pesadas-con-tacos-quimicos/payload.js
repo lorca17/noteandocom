@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/corregir-cargas-pesadas-con-tacos-quimicos", {data:[{}],fetch:{},mutations:void 0});

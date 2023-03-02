@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tratamiento-de-palma-en-casa", {data:[{}],fetch:{},mutations:void 0});

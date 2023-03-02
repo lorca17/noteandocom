@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-agujero-para-un-arbol-en-el-patio", {data:[{}],fetch:{},mutations:void 0});

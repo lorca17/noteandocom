@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-limpiar-vasos", {data:[{}],fetch:{},mutations:void 0});

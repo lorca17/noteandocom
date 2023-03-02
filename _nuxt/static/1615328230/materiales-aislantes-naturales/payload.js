@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/materiales-aislantes-naturales", {data:[{}],fetch:{},mutations:void 0});

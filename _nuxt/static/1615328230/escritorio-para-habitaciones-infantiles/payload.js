@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/escritorio-para-habitaciones-infantiles", {data:[{}],fetch:{},mutations:void 0});

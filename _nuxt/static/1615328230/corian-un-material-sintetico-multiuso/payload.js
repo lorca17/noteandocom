@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/corian-un-material-sintetico-multiuso", {data:[{}],fetch:{},mutations:void 0});

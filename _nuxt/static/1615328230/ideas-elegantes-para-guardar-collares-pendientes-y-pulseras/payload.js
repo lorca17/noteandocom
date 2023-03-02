@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-elegantes-para-guardar-collares-pendientes-y-pulseras", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/techos-transparentes-en-la-terraza", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/guia-practica-para-la-mezcla-de-color", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/al-usar-tubos-de-polietileno", {data:[{}],fetch:{},mutations:void 0});

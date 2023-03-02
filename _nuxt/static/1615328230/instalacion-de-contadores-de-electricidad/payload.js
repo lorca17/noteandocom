@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instalacion-de-contadores-de-electricidad", {data:[{}],fetch:{},mutations:void 0});

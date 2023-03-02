@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-la-habitacion-con-motivos-etnicos", {data:[{}],fetch:{},mutations:void 0});

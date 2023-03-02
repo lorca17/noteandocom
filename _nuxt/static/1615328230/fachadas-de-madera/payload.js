@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fachadas-de-madera", {data:[{}],fetch:{},mutations:void 0});

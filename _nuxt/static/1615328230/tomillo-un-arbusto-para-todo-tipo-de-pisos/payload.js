@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tomillo-un-arbusto-para-todo-tipo-de-pisos", {data:[{}],fetch:{},mutations:void 0});

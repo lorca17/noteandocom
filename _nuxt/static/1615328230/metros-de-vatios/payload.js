@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/metros-de-vatios", {data:[{}],fetch:{},mutations:void 0});

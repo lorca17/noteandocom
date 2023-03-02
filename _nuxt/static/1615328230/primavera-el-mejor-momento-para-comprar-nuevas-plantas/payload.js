@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/primavera-el-mejor-momento-para-comprar-nuevas-plantas", {data:[{}],fetch:{},mutations:void 0});

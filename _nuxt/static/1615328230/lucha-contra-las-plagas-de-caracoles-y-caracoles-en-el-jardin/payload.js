@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lucha-contra-las-plagas-de-caracoles-y-caracoles-en-el-jardin", {data:[{}],fetch:{},mutations:void 0});

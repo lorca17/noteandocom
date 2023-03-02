@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/asegurar-el-cable-de-hierro", {data:[{}],fetch:{},mutations:void 0});

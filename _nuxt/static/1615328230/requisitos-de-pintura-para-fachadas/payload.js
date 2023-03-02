@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/requisitos-de-pintura-para-fachadas", {data:[{}],fetch:{},mutations:void 0});

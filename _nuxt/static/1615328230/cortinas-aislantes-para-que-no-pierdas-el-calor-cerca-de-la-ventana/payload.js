@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cortinas-aislantes-para-que-no-pierdas-el-calor-cerca-de-la-ventana", {data:[{}],fetch:{},mutations:void 0});

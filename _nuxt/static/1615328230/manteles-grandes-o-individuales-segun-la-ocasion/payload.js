@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/manteles-grandes-o-individuales-segun-la-ocasion", {data:[{}],fetch:{},mutations:void 0});

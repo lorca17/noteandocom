@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-con-pinturas-el-bano", {data:[{}],fetch:{},mutations:void 0});

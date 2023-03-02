@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/madera-para-escultura", {data:[{}],fetch:{},mutations:void 0});

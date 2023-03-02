@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/medidas-de-la-cama", {data:[{}],fetch:{},mutations:void 0});

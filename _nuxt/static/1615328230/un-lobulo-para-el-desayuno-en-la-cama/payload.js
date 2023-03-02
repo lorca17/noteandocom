@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-lobulo-para-el-desayuno-en-la-cama", {data:[{}],fetch:{},mutations:void 0});

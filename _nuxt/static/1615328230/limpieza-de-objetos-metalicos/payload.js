@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/limpieza-de-objetos-metalicos", {data:[{}],fetch:{},mutations:void 0});

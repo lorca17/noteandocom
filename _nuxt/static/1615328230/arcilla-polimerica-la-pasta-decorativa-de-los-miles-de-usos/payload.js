@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/arcilla-polimerica-la-pasta-decorativa-de-los-miles-de-usos", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/menta-en-el-jardin-mas-alla-de-su-valor-culinario", {data:[{}],fetch:{},mutations:void 0});

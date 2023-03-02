@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/rectificadora-como-elegir-la-mas-conveniente", {data:[{}],fetch:{},mutations:void 0});

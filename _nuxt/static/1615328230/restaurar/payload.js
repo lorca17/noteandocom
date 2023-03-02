@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/restaurar", {data:[{}],fetch:{},mutations:void 0});

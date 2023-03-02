@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/evitar-la-apariencia-de-oxido", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diseno-del-radiador", {data:[{}],fetch:{},mutations:void 0});

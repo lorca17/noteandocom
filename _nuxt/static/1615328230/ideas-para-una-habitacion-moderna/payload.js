@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-una-habitacion-moderna", {data:[{}],fetch:{},mutations:void 0});

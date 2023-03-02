@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diferentes-acabados-de-madera", {data:[{}],fetch:{},mutations:void 0});

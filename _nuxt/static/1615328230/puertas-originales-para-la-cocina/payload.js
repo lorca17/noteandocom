@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/puertas-originales-para-la-cocina", {data:[{}],fetch:{},mutations:void 0});

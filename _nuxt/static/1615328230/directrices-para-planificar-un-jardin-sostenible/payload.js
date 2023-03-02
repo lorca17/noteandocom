@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/directrices-para-planificar-un-jardin-sostenible", {data:[{}],fetch:{},mutations:void 0});

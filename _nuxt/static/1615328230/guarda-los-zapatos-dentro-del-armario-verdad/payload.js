@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/guarda-los-zapatos-dentro-del-armario-verdad", {data:[{}],fetch:{},mutations:void 0});

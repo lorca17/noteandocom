@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tipos-de-alfombra", {data:[{}],fetch:{},mutations:void 0});

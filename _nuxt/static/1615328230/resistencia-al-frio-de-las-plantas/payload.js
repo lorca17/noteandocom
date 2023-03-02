@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/resistencia-al-frio-de-las-plantas", {data:[{}],fetch:{},mutations:void 0});

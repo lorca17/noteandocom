@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lamparas-de-colores-una-forma-de-dar-personalidad-a-un-espacio", {data:[{}],fetch:{},mutations:void 0});

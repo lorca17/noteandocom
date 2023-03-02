@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-cama-descansa-en-la-terraza-y-el-jardin", {data:[{}],fetch:{},mutations:void 0});

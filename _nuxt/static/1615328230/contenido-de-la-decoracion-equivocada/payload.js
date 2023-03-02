@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/contenido-de-la-decoracion-equivocada", {data:[{}],fetch:{},mutations:void 0});

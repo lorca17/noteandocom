@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/home-cinema-como-colocar-a-los-altavoces-para-obtener-un-sonido-envolvente", {data:[{}],fetch:{},mutations:void 0});

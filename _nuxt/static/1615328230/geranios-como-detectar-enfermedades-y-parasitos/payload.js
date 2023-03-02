@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/geranios-como-detectar-enfermedades-y-parasitos", {data:[{}],fetch:{},mutations:void 0});

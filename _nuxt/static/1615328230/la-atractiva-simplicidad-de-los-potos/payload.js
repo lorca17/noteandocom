@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-atractiva-simplicidad-de-los-potos", {data:[{}],fetch:{},mutations:void 0});

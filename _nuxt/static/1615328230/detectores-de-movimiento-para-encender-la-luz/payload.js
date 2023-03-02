@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/detectores-de-movimiento-para-encender-la-luz", {data:[{}],fetch:{},mutations:void 0});

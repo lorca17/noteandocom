@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/atencion-requerida-de-plantas-gordas", {data:[{}],fetch:{},mutations:void 0});

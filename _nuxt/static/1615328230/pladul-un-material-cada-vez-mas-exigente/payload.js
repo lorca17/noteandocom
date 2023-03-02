@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pladul-un-material-cada-vez-mas-exigente", {data:[{}],fetch:{},mutations:void 0});

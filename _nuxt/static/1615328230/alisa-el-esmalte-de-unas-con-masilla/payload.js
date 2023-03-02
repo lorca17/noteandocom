@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/alisa-el-esmalte-de-unas-con-masilla", {data:[{}],fetch:{},mutations:void 0});

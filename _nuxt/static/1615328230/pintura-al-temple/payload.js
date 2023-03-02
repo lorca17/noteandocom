@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pintura-al-temple", {data:[{}],fetch:{},mutations:void 0});

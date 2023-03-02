@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/aire-permanece-con-ventilacion-mecanica", {data:[{}],fetch:{},mutations:void 0});

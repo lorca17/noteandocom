@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuidado-del-jardin-en-otono", {data:[{}],fetch:{},mutations:void 0});

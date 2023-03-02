@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/distinguir-los-ladrillos-de-calidad", {data:[{}],fetch:{},mutations:void 0});

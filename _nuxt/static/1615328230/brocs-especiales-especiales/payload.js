@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/brocs-especiales-especiales", {data:[{}],fetch:{},mutations:void 0});

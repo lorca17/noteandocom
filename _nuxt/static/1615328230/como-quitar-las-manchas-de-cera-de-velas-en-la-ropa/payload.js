@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-quitar-las-manchas-de-cera-de-velas-en-la-ropa", {data:[{}],fetch:{},mutations:void 0});

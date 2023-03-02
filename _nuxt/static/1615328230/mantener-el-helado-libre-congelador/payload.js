@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mantener-el-helado-libre-congelador", {data:[{}],fetch:{},mutations:void 0});

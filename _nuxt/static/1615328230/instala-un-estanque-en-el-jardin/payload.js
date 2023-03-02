@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instala-un-estanque-en-el-jardin", {data:[{}],fetch:{},mutations:void 0});

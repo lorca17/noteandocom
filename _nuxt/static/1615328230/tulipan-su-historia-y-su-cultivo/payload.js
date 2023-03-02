@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tulipan-su-historia-y-su-cultivo", {data:[{}],fetch:{},mutations:void 0});

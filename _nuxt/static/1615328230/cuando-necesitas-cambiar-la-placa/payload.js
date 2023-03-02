@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuando-necesitas-cambiar-la-placa", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pequenas-redes-para-evitar-atascos-en-los-tubos", {data:[{}],fetch:{},mutations:void 0});

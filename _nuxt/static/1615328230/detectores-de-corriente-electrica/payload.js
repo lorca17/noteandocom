@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/detectores-de-corriente-electrica", {data:[{}],fetch:{},mutations:void 0});

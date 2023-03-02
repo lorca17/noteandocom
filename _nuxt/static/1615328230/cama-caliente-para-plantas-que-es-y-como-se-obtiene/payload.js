@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cama-caliente-para-plantas-que-es-y-como-se-obtiene", {data:[{}],fetch:{},mutations:void 0});

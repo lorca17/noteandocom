@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/retire-el-aire-de-los-tubos", {data:[{}],fetch:{},mutations:void 0});

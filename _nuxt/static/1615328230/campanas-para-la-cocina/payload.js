@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/campanas-para-la-cocina", {data:[{}],fetch:{},mutations:void 0});

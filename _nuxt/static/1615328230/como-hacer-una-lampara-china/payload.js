@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-una-lampara-china", {data:[{}],fetch:{},mutations:void 0});

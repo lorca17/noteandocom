@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/usos-en-la-carpinteria-de-contacto-de-contacto", {data:[{}],fetch:{},mutations:void 0});

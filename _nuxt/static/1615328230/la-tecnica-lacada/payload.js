@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-tecnica-lacada", {data:[{}],fetch:{},mutations:void 0});

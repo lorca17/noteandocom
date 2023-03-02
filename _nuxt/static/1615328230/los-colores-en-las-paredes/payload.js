@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-colores-en-las-paredes", {data:[{}],fetch:{},mutations:void 0});

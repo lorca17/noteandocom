@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/objetos-dorados-con-pan-dorado", {data:[{}],fetch:{},mutations:void 0});

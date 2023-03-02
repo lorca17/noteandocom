@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-organizar-libros-en-la-estanteria", {data:[{}],fetch:{},mutations:void 0});

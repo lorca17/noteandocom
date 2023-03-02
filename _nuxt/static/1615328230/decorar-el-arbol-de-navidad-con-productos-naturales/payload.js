@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-el-arbol-de-navidad-con-productos-naturales", {data:[{}],fetch:{},mutations:void 0});

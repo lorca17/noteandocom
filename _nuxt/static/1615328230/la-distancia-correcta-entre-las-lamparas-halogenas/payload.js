@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-distancia-correcta-entre-las-lamparas-halogenas", {data:[{}],fetch:{},mutations:void 0});

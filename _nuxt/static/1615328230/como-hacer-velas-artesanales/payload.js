@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-velas-artesanales", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/plantas-pagando-terrenos-de-jardin", {data:[{}],fetch:{},mutations:void 0});

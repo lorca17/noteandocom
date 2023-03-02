@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/escritorio-con-plataformas-en-diferentes-niveles-para-tener-todo-a-su-alcance", {data:[{}],fetch:{},mutations:void 0});

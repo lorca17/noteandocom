@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-reutilizar-un-acuario-vacio", {data:[{}],fetch:{},mutations:void 0});

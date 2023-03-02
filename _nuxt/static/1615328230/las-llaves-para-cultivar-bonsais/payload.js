@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/las-llaves-para-cultivar-bonsais", {data:[{}],fetch:{},mutations:void 0});

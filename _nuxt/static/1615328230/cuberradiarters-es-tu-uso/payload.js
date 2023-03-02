@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuberradiarters-es-tu-uso", {data:[{}],fetch:{},mutations:void 0});

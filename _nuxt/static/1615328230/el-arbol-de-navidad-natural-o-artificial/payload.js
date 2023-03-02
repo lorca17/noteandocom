@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-arbol-de-navidad-natural-o-artificial", {data:[{}],fetch:{},mutations:void 0});

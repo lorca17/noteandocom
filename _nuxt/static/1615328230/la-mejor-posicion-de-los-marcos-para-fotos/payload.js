@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-mejor-posicion-de-los-marcos-para-fotos", {data:[{}],fetch:{},mutations:void 0});

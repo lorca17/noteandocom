@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/al-usar-madera-de-pino", {data:[{}],fetch:{},mutations:void 0});

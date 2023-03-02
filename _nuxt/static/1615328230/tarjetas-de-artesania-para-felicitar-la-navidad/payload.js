@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tarjetas-de-artesania-para-felicitar-la-navidad", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proteger-las-plantas-y-el-jardin", {data:[{}],fetch:{},mutations:void 0});

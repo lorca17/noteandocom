@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-utensilios-de-cocina-de-madera", {data:[{}],fetch:{},mutations:void 0});

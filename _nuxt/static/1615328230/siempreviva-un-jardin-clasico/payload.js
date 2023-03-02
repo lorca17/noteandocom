@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/siempreviva-un-jardin-clasico", {data:[{}],fetch:{},mutations:void 0});

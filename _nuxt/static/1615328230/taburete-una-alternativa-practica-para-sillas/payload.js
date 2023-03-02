@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/taburete-una-alternativa-practica-para-sillas", {data:[{}],fetch:{},mutations:void 0});

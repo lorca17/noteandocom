@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/animales-embalsados-en-la-habitacion-de-los-ninos", {data:[{}],fetch:{},mutations:void 0});

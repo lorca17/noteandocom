@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/garaje-abierto-una-alternativa-practica-para-proteger-la-maquina", {data:[{}],fetch:{},mutations:void 0});

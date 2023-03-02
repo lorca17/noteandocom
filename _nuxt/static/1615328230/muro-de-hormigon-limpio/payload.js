@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/muro-de-hormigon-limpio", {data:[{}],fetch:{},mutations:void 0});

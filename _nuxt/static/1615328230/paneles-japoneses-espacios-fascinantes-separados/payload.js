@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/paneles-japoneses-espacios-fascinantes-separados", {data:[{}],fetch:{},mutations:void 0});

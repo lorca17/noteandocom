@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/advertencia-saludable-para-puertas-y-accesos", {data:[{}],fetch:{},mutations:void 0});

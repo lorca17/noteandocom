@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Tue, 07 Apr 2020 20:51:03 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>tsy</title>
+		<link>https://noteando.com/uncategorized/tsy/</link>
+					<comments>https://noteando.com/uncategorized/tsy/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2020 19:39:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=402</guid>
+
+					<description><![CDATA[<p>[python] [python file=»file.py»]</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/uncategorized/tsy/">tsy</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>[python]</p>
+
+
+
+<p>[python file=»file.py»]</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/uncategorized/tsy/">tsy</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/uncategorized/tsy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

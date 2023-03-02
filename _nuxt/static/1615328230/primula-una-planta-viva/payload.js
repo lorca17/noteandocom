@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/primula-una-planta-viva", {data:[{}],fetch:{},mutations:void 0});

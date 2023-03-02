@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-reutilizar-ropa-antigua", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-cala-una-majestuosa-planta", {data:[{}],fetch:{},mutations:void 0});

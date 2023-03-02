@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/prato-para-el-patio-natural-o-artificial", {data:[{}],fetch:{},mutations:void 0});

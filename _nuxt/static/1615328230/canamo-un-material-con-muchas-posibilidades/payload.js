@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/canamo-un-material-con-muchas-posibilidades", {data:[{}],fetch:{},mutations:void 0});

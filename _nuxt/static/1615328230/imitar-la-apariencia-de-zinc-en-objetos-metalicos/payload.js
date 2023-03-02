@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/imitar-la-apariencia-de-zinc-en-objetos-metalicos", {data:[{}],fetch:{},mutations:void 0});

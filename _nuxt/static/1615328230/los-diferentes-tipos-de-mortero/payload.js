@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-diferentes-tipos-de-mortero", {data:[{}],fetch:{},mutations:void 0});

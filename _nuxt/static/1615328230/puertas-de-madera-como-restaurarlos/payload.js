@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/puertas-de-madera-como-restaurarlos", {data:[{}],fetch:{},mutations:void 0});

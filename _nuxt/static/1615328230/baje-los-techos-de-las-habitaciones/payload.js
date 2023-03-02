@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/baje-los-techos-de-las-habitaciones", {data:[{}],fetch:{},mutations:void 0});

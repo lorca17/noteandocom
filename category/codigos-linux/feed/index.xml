@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/codigos-linux/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Fri, 07 Dec 2018 21:44:46 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>Cambiar permisos carpetas y ficheros en linux</title>
+		<link>https://noteando.com/codigos-linux/cambiar-permisos-carpetas-y-ficheros-en-linux/</link>
+					<comments>https://noteando.com/codigos-linux/cambiar-permisos-carpetas-y-ficheros-en-linux/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2018 21:43:03 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=213</guid>
+
+					<description><![CDATA[<p>Para cambiar los permisos del grupo necesitamos conectarnos por ssh, en windows puedes utilizar el programa putty. Aquí unos ejemplos de como cambiar de forma rápida los dueños de las...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-linux/cambiar-permisos-carpetas-y-ficheros-en-linux/">Cambiar permisos carpetas y ficheros en linux</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Para cambiar los permisos del grupo necesitamos conectarnos por ssh, en windows puedes utilizar el programa putty.</p>
+<p>Aquí unos ejemplos de como cambiar de forma rápida los dueños de las carpetas, para no ir archivo por archovo se le añade «-R» si solo quieres cambiara un archivo no lo pongas.</p>
+<p>&nbsp;</p>
+<p>sudo chown &lt;usuario&gt; -R &lt;carpeta&gt; (carpeta y todo su contenido)</p>
+<p>ejemplo: sudo chown web13 -R /var/www/clients/client2/web13/web/plugins</p>
+<p>sudo chgrp &lt;grupo&gt; -R &lt;carpeta&gt; (carpeta y todo su contenido)</p>
+<p>ejemplo: sudo chgrp client2 -R /var/www/clients/client2/web13/web/plugins</p>
+<p>Para hacerlo cambiar el grupo y el usuario de golpe se utiliza este comando:</p>
+<p>sudo chown usuario:grupo -R &lt;carpeta&gt; (carpeta y todo su contenido)</p>
+<p>ejemplo: sudo chown web13:client2 -R /var/www/clients/client2/web13/web</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-linux/cambiar-permisos-carpetas-y-ficheros-en-linux/">Cambiar permisos carpetas y ficheros en linux</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-linux/cambiar-permisos-carpetas-y-ficheros-en-linux/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

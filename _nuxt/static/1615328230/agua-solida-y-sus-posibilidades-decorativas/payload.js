@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/agua-solida-y-sus-posibilidades-decorativas", {data:[{}],fetch:{},mutations:void 0});

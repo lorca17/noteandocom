@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/construir-una-carretera-en-el-jardin", {data:[{}],fetch:{},mutations:void 0});

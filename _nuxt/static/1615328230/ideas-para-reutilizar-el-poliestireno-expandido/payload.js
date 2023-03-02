@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-reutilizar-el-poliestireno-expandido", {data:[{}],fetch:{},mutations:void 0});

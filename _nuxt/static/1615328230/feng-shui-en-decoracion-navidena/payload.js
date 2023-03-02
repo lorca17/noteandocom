@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/feng-shui-en-decoracion-navidena", {data:[{}],fetch:{},mutations:void 0});

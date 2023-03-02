@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/inicio-regalos-para-el-dia-de-san-valentin", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decoracion-navidena-en-casa", {data:[{}],fetch:{},mutations:void 0});

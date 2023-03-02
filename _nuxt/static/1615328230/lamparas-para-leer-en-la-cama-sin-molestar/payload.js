@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lamparas-para-leer-en-la-cama-sin-molestar", {data:[{}],fetch:{},mutations:void 0});

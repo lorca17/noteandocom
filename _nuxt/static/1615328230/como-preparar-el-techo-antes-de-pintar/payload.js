@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-preparar-el-techo-antes-de-pintar", {data:[{}],fetch:{},mutations:void 0});

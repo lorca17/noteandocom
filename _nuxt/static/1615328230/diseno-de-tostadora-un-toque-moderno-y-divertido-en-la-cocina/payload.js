@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diseno-de-tostadora-un-toque-moderno-y-divertido-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

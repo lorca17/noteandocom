@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/limpiar-los-agujeros-en-el-tablero", {data:[{}],fetch:{},mutations:void 0});

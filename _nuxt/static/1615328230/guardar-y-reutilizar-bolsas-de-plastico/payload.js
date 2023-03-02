@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/guardar-y-reutilizar-bolsas-de-plastico", {data:[{}],fetch:{},mutations:void 0});

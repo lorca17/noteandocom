@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/figuras-de-confeccion-con-pasta-de-sal", {data:[{}],fetch:{},mutations:void 0});

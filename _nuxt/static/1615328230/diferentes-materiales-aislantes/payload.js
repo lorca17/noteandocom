@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/diferentes-materiales-aislantes", {data:[{}],fetch:{},mutations:void 0});

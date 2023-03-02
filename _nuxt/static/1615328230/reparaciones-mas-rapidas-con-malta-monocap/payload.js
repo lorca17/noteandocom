@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reparaciones-mas-rapidas-con-malta-monocap", {data:[{}],fetch:{},mutations:void 0});

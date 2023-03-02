@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/obras-permitidas-por-ley-en-un-plan", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/arboles-interiores-muy-decorativos-y-faciles-de-tratar", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/windows-para-penthouse", {data:[{}],fetch:{},mutations:void 0});

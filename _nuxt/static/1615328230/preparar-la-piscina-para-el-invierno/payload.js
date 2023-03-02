@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/preparar-la-piscina-para-el-invierno", {data:[{}],fetch:{},mutations:void 0});

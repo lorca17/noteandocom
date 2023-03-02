@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pasos-para-iniciar-la-pintura-al-oleo", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/claves-para-realizar-un-trasplante-de-plantas", {data:[{}],fetch:{},mutations:void 0});

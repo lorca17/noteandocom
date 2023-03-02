@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/combinar-lamparas-modernas-con-techos-rusticos", {data:[{}],fetch:{},mutations:void 0});

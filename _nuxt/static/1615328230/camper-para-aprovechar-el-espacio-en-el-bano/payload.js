@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/camper-para-aprovechar-el-espacio-en-el-bano", {data:[{}],fetch:{},mutations:void 0});

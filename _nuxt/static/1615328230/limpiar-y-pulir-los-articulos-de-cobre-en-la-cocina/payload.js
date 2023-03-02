@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/limpiar-y-pulir-los-articulos-de-cobre-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

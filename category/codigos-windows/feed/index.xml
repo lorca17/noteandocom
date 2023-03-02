@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Windows &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/codigos-windows/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Sun, 11 Nov 2018 11:30:51 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>Unir archivo con Windows y la consola (CMD)</title>
+		<link>https://noteando.com/codigos-windows/unir-archivo-con-windows-y-la-consola-cmd/</link>
+					<comments>https://noteando.com/codigos-windows/unir-archivo-con-windows-y-la-consola-cmd/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 11:29:40 +0000</pubDate>
+				<category><![CDATA[Windows]]></category>
+		<category><![CDATA[unir archivos]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=152</guid>
+
+					<description><![CDATA[<p>Si utilizas windows y necesitas unir varios archivos en uno solo y no tienes miedo en utilizar la consola de Windows puedes utilizar este simple código. Para que funciones tienes...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-windows/unir-archivo-con-windows-y-la-consola-cmd/">Unir archivo con Windows y la consola (CMD)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si utilizas windows y necesitas unir varios archivos en uno solo y no tienes miedo en utilizar la consola de Windows puedes utilizar este simple código.</p>
+<p>Para que funciones tienes que estar en la carpeta.</p>
+<h2>Este ejemplo es para unir todos los archivos txt en uno solo.</h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="null">copy /b *.txt union_total.txt</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-windows/unir-archivo-con-windows-y-la-consola-cmd/">Unir archivo con Windows y la consola (CMD)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-windows/unir-archivo-con-windows-y-la-consola-cmd/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

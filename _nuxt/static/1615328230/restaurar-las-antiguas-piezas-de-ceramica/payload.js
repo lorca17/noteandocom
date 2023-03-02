@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/restaurar-las-antiguas-piezas-de-ceramica", {data:[{}],fetch:{},mutations:void 0});

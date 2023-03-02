@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/hidrops-despedida-al-riego", {data:[{}],fetch:{},mutations:void 0});

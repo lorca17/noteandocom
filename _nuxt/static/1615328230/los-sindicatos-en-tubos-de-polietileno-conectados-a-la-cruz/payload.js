@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-sindicatos-en-tubos-de-polietileno-conectados-a-la-cruz", {data:[{}],fetch:{},mutations:void 0});

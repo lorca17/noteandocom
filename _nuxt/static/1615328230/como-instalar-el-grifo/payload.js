@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-instalar-el-grifo", {data:[{}],fetch:{},mutations:void 0});

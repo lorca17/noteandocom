@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NOTEando</title>
+	<atom:link href="https://noteando.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Tue, 07 Apr 2020 20:51:03 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>tsy</title>
+		<link>https://noteando.com/uncategorized/tsy/</link>
+					<comments>https://noteando.com/uncategorized/tsy/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2020 19:39:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=402</guid>
+
+					<description><![CDATA[<p>[python] [python file=»file.py»]</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/uncategorized/tsy/">tsy</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>[python]</p>
+
+
+
+<p>[python file=»file.py»]</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/uncategorized/tsy/">tsy</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/uncategorized/tsy/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Política de Cookies Sin Plugins en WordPress</title>
+		<link>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 09:59:33 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Php]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=372</guid>
+
+					<description><![CDATA[<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina. Este código lo utilizamos en...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina.</p>
+
+
+
+<p class="has-text-align-center">Este código lo utilizamos en esta página, <strong>así sirve de ejemplo</strong> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+
+
+
+<p>Este es un sencillo código en javascript y css que te optimiza el código y que más o menos cumple la ley.</p>
+
+
+
+<p>El más o menos se refiere a que según la ley no se puede meter cookies antes de dar al <strong>botón de «ACEPTAR»</strong>, pero he visto pocas páginas que carguen el <a href="https://analytics.google.com/">Analytics</a> o el <a href="https://www.google.com/intl/es_es/adsense/start/">Adense</a> después de dar a este botón, así que tranquilo.</p>
+
+
+
+<pre class="wp-block-code"><code>  &lt;!-- inico cookies -->
+         &lt;style>
+.cookieConsentContainer {
+	z-index: 999;
+	width: 350px;
+	min-height: 20px;
+	box-sizing: border-box;
+	padding: 30px 30px 30px 30px;
+	background: #232323;
+	overflow: hidden;
+	position: fixed;
+    bottom: 30px;
+	right: 30px;
+	display: none;
+}
+.cookieConsentContainer .cookieTitle a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 20px;
+	display: block;
+}
+.cookieConsentContainer .cookieDesc p {
+	margin: 0;
+	padding: 0;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	display: block;
+	margin-top: 10px;
+} .cookieConsentContainer .cookieDesc a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.cookieConsentContainer .cookieButton a {
+	display: inline-block;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+	background: #000000;
+	box-sizing: border-box; 
+	padding: 15px 24px;
+	text-align: center;
+	transition: background 0.3s;
+}
+.cookieConsentContainer .cookieButton a:hover { 
+	cursor: pointer;
+	background: #3E9B67;
+}
+
+@media (max-width: 980px) {
+	.cookieConsentContainer {
+		bottom: 0px !important;
+		left: 0px !important;
+		width: 100%  !important;
+	}
+
+&lt;/style>
+&lt;script language='javascript'>
+// --- Config --- //
+var purecookieTitle = "Cookies."; // Title
+var purecookieDesc = "Esta pagina utiliza cookies, Al usar este sitio web, acepta automáticamente que usemos cookies"; // Description
+var purecookieLink = '&lt;a href="/aviso-de-cookies/" rel="nofollow" target="_blank">Saber Mas&lt;/a>'; // Cookiepolicy link
+var purecookieButton = "Ok, Entiendo"; // Button text
+// ---        --- //
+
+
+function pureFadeIn(elem, display){
+  var el = document.getElementById(elem);
+  el.style.opacity = 0;
+  el.style.display = display || "block";
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .02) > 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+function pureFadeOut(elem){
+  var el = document.getElementById(elem);
+  el.style.opacity = 1;
+
+  (function fade() {
+    if ((el.style.opacity -= .02) &lt; 0) {
+      el.style.display = "none";
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i &lt; ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+
+function cookieConsent() {
+  if (!getCookie('purecookieDismiss')) {
+    document.body.innerHTML += '&lt;div class="cookieConsentContainer" id="cookieConsentContainer">&lt;div class="cookieTitle">&lt;a>' + purecookieTitle + '&lt;/a>&lt;/div>&lt;div class="cookieDesc">&lt;p>' + purecookieDesc + ' ' + purecookieLink + '&lt;/p>&lt;/div>&lt;div class="cookieButton">&lt;a onClick="purecookieDismiss();">' + purecookieButton + '&lt;/a>&lt;/div>&lt;/div>';
+	pureFadeIn("cookieConsentContainer");
+  }
+}
+
+function purecookieDismiss() {
+  setCookie('purecookieDismiss','1',7);
+  pureFadeOut("cookieConsentContainer");
+}
+
+window.onload = function() { cookieConsent(); };
+&lt;/script>
+        &lt;!-- fin cookies --></code></pre>
+
+
+
+<p>Solo tienes que <strong>copiar y pegar</strong> al final del archivo footer.php de tu página y <strong>crear la pagina con la url «/aviso-de-cookies/»</strong></p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Añadir icono de Amazon a los enlaces de Afiliacion</title>
+		<link>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/</link>
+					<comments>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 09:13:03 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=322</guid>
+
+					<description><![CDATA[<p>Si sueles poner enlaces de afiliación de Amazon y quieres cumplir sus políticas una forma fácil de que el usuario detecte que es un enlace de afiliación es colocar este...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/">Añadir icono de Amazon a los enlaces de Afiliacion</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si sueles poner enlaces de afiliación de Amazon y <strong>quieres cumplir sus políticas</strong> una forma fácil de que el usuario detecte que es un enlace de afiliación es colocar este simpático icono.</p>
+
+
+
+<p>Este es el código que tienes que añadir al archivo css de tu página.</p>
+
+
+
+<pre class="wp-block-code"><code>a[href^="https://amzn.to/"] {
+background: url("https://noteando.com/icon-amazon.gif") no-repeat top right;
+padding-right:15px;
+}
+</code></pre>
+
+
+
+<p><strong>Aquí tienes un ejemplo</strong> de como quedaría el enlace de afiliación:</p>
+
+
+
+<p class="has-text-align-center">Estas son las <a rel="nofollow noreferrer noopener" aria-label=" (se abre en una nueva pestaña)" href="https://amzn.to/332h1zW" target="_blank">Gafas de Sol</a> que <strong>tu cara necesita</strong>.</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/">Añadir icono de Amazon a los enlaces de Afiliacion</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Desactivar la Actualización de un Plugin en WordPress</title>
+		<link>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 08:59:43 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=317</guid>
+
+					<description><![CDATA[<p>Hay varios motivos por los cuales no actualizar un plugin de WordPress, tú ya me entiendes&#8230; Si no quieres ver todo el rato en tu panel de administrador de worpresss...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/">Desactivar la Actualización de un Plugin en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Hay varios motivos por los cuales <strong>no actualizar un plugin de WordPress</strong>, tú ya me entiendes&#8230;</p>
+
+
+
+<p>Si no quieres ver todo el rato en tu panel de administrador de worpresss <strong>ese molesto aviso</strong>, puedes utilizar añadir este código en el archivo fuction.php y eliminarlo para siempre.</p>
+
+
+
+<p>Solo tienes que cambiar el «akismet/akismet.php» por la ruta del plugin que no quieres que se actualice.</p>
+
+
+
+<pre class="wp-block-code"><code>function filter_plugin_updates( $value ) {
+    unset( $value->response['akismet/akismet.php'] );
+    return $value;
+}
+add_filter( 'site_transient_update_plugins', 'filter_plugin_updates' );
+</code></pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/">Desactivar la Actualización de un Plugin en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Descargar las Urls de los Resultados de Google</title>
+		<link>https://noteando.com/codigos-javascript/descargar-url-resultados-de-google/</link>
+					<comments>https://noteando.com/codigos-javascript/descargar-url-resultados-de-google/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 08:32:37 +0000</pubDate>
+				<category><![CDATA[JavaScript]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=312</guid>
+
+					<description><![CDATA[<p>Con este sencillo script puedes descargar hasta los 100 resultados de una busqueda de google. Lo puedes ejecutar directamente en la consola o si lo utilizas mucho puede incluso guardarlo...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-javascript/descargar-url-resultados-de-google/">Descargar las Urls de los Resultados de Google</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Con este sencillo script puedes descargar hasta los 100 resultados de una busqueda de google.</p>
+
+
+
+<p>Lo puedes ejecutar directamente en la consola o si lo utilizas mucho puede incluso guardarlo en el marcador.</p>
+
+
+
+<pre class="wp-block-code"><code>var output = 'URL';
+links = document.getElementsByClassName('rc');
+for (var i=0; i&lt;links.length; i++){
+linkurl = links&#91;i].getElementsByTagName('a')&#91;0].href;
+output += '\n' + linkurl ;
+}
+var hiddenElement = document.createElement('a');
+hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(output);
+hiddenElement.download = document.getElementsByName('q')&#91;0].value + '.csv';
+hiddenElement.click();
+</code></pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-javascript/descargar-url-resultados-de-google/">Descargar las Urls de los Resultados de Google</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-javascript/descargar-url-resultados-de-google/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WebDriver Chrome para Selenium en Python (Solución Automática)</title>
+		<link>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/</link>
+					<comments>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2020 10:59:44 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=305</guid>
+
+					<description><![CDATA[<p>Si tienes problemas para ejecutar los driver de chrome con python puedes utilizar esta librería. Lo primero que tienes que hacer es intalar esto: pip install webdriver-manager Una vez instalado...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/">WebDriver Chrome para Selenium en Python (Solución Automática)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si tienes problemas para ejecutar los driver de chrome con python puedes utilizar esta librería.</p>
+
+
+
+<p>Lo primero que tienes que hacer es intalar esto:</p>
+
+
+
+<p><code>pip install webdriver-manager</code></p>
+
+
+
+<p>Una vez instalado con este simple código tendría que funcionar el navegador con selenium y python.</p>
+
+
+
+<pre class="wp-block-code"><code>from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(ChromeDriverManager().install())</code></pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/">WebDriver Chrome para Selenium en Python (Solución Automática)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Transformas un texto en un texto plano con python</title>
+		<link>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/</link>
+					<comments>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 21 Dec 2018 08:03:39 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=242</guid>
+
+					<description><![CDATA[<p>Para transformar en cualquier texto en uno plano &#160; def limpiar_acentos(text): acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'} for acen in acentos: if acen in...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/">Transformas un texto en un texto plano con python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Para transformar en cualquier texto en uno plano</p>
+<p>&nbsp;</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">def limpiar_acentos(text):
+  acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
+  for acen in acentos:
+    if acen in text:
+      text = text.replace(acen, acentos[acen])
+  return text
+
+
+
+def texto_plano(texto):
+    
+    texto = limpiar_acentos(texto.lower())
+    texto = re.sub('[^A-Za-z0-9]+', ' ', texto)
+       
+    return texto
+
+def contador_palabras(texto):
+    contador = {}
+    palabras = texto.split(' ')
+    for palabra in palabras:
+        if palabra not in contador:
+            contador[palabra] = 1
+        else:
+            contador[palabra] += 1
+    return contador
+
+def buscar_palabra(palabra,texto):
+    tx = contador_palabras(texto_plano(texto))
+    if palabra in tx:
+        return palabra,tx[palabra]
+    else:
+        return palabra,0</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/">Transformas un texto en un texto plano con python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Combinar varias listas en un ciclo for con Python</title>
+		<link>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/</link>
+					<comments>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 20:01:35 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=238</guid>
+
+					<description><![CDATA[<p>Si queremos combinar varias lista en un «loop» for en Python podemos utilizar un comando llamado «zip» Este es el ejemplo para por ejemplo imprimir una lista en grupos de...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/">Combinar varias listas en un ciclo for con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si queremos combinar varias lista en un «loop» for en Python podemos utilizar un comando llamado «zip»</p>
+<p>Este es el ejemplo para por ejemplo imprimir una lista en grupos de dos palabras o tres</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">
+# Estas son las listas
+
+lis1 = ['uno','dos','tres','cuatro','cinco','seis','siete']
+lis2 = lista[1:]
+lis3 = lista[2:]
+
+# Aquí imprimimos en grupos de dos palabras
+
+for (li,lis,) in zip(lis1,lis2): 
+     print (li,lis)
+
+# Aquí en grupos de tres palabras
+
+for (li,lis,liss) in zip(lis1,lis2,lis3): 
+     print (li,lis,liss)</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/">Combinar varias listas en un ciclo for con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Scrapear html con regex en Python</title>
+		<link>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/</link>
+					<comments>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 11:21:48 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=220</guid>
+
+					<description><![CDATA[<p>Si queremos hacer un scraper de una página web y sacar algunos de los datos de ella aquí encontraras algunos ejemplos utilizando la libreria re de python. h1s = re.findall(r'&#60;h1.*?&#62;(.+?)&#60;',html)...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/">Scrapear html con regex en Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si queremos hacer un scraper de una página web y sacar algunos de los datos de ella aquí encontraras algunos ejemplos utilizando la libreria re de python.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">h1s = re.findall(r'&lt;h1.*?&gt;(.+?)&lt;',html)
+h2s = re.findall(r'&lt;h2.*?&gt;(.+?)&lt;',html)
+h3s = re.findall(r'&lt;h3.*?&gt;(.+?)&lt;',html)
+h4s = re.findall(r'&lt;h4.*?&gt;(.+?)&lt;',html)
+
+
+titulo = re.findall(r'&lt;title&gt;(.+?)&lt;/title&gt;',html)
+meta_titulo = re.findall(r'&lt;meta name="title" content="(.+?)"',html)
+meta_descripcion = re.findall(r'&lt;meta name="description" content="(.+?)"',html)
+meta_keywords = re.findall(r'&lt;meta name="keywords" content="(.+?)"',html)</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/">Scrapear html con regex en Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Simple función en Python para eliminar acentos o tildes</title>
+		<link>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/</link>
+					<comments>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/#comments</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 08:32:18 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=218</guid>
+
+					<description><![CDATA[<p>Es posible que en alguna ocasión, necesitemos eliminar todos los acentos de un texto, aquí tienes unas simples líneas con las que eliminar todas las tildes utilizando el lenguaje de...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/">Simple función en Python para eliminar acentos o tildes</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Es posible que en alguna ocasión, necesitemos eliminar todos los acentos de un texto, aquí tienes unas simples líneas con las que eliminar todas las tildes utilizando el lenguaje de programación Python.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">def limpiar_acentos(text):
+	acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u', 'Á': 'A', 'E': 'E', 'Í': 'I', 'Ó': 'O', 'Ú': 'U'}
+	for acen in acentos:
+		if acen in text:
+			text = text.replace(acen, acentos[acen])
+	return text
+
+
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/">Simple función en Python para eliminar acentos o tildes</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

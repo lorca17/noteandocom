@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reparar-las-luchas-de-los-azulejos", {data:[{}],fetch:{},mutations:void 0});

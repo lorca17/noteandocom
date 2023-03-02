@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/plantas-toxicas-y-venenosas", {data:[{}],fetch:{},mutations:void 0});

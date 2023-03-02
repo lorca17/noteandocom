@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/apliques-de-pared-modernos-y-decorativos", {data:[{}],fetch:{},mutations:void 0});

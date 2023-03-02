@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuando-y-como-tienes-que-descongelar-el-refrigerador", {data:[{}],fetch:{},mutations:void 0});

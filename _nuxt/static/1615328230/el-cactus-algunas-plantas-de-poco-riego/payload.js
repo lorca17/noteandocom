@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-cactus-algunas-plantas-de-poco-riego", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/papel-acristalado-y-otras-herramientas-abrasivas", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/arbustos-de-trasplante-desde-el-jarron-del-jardin", {data:[{}],fetch:{},mutations:void 0});

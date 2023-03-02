@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-distribuidor-de-ministerios-caseros", {data:[{}],fetch:{},mutations:void 0});

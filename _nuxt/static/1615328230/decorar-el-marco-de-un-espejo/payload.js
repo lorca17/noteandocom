@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-el-marco-de-un-espejo", {data:[{}],fetch:{},mutations:void 0});

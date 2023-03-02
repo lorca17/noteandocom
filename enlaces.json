@@ -1,0 +1,18 @@
+[
+    {
+        "ancho":"enlace 1",
+        "link":"http://google.es",
+        "img":""
+    },
+    {
+        "ancho":"enlace 2",
+        "link":"http://yahoo.es",
+        "img":""
+    },
+    {
+        "ancho":"enlace 3",
+        "link":"http://msn.es",
+        "img":""
+
+    }
+]

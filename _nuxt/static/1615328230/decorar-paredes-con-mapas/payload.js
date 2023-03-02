@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-paredes-con-mapas", {data:[{}],fetch:{},mutations:void 0});

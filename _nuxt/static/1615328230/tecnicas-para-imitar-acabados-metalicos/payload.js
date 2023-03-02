@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnicas-para-imitar-acabados-metalicos", {data:[{}],fetch:{},mutations:void 0});

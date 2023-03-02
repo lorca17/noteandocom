@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/insonorizacion", {data:[{}],fetch:{},mutations:void 0});

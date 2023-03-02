@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pegatinas-un-tipo-de-cola-para-cada-material", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sugerencias-para-la-limpieza-y-cuidado-de-los-colchones", {data:[{}],fetch:{},mutations:void 0});

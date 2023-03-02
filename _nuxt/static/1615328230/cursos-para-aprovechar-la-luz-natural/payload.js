@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cursos-para-aprovechar-la-luz-natural", {data:[{}],fetch:{},mutations:void 0});

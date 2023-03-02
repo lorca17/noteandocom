@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/orquidea-flor-de-pascua", {data:[{}],fetch:{},mutations:void 0});

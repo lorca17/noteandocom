@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/uniones-rociadas-en-tubos-de-plastico", {data:[{}],fetch:{},mutations:void 0});

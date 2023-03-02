@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-quitar-la-veta-de-la-madera-de-las-paredes", {data:[{}],fetch:{},mutations:void 0});

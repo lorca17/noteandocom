@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Python &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/codigos-python/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Fri, 06 Mar 2020 14:07:10 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>WebDriver Chrome para Selenium en Python (Solución Automática)</title>
+		<link>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/</link>
+					<comments>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2020 10:59:44 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=305</guid>
+
+					<description><![CDATA[<p>Si tienes problemas para ejecutar los driver de chrome con python puedes utilizar esta librería. Lo primero que tienes que hacer es intalar esto: pip install webdriver-manager Una vez instalado...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/">WebDriver Chrome para Selenium en Python (Solución Automática)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si tienes problemas para ejecutar los driver de chrome con python puedes utilizar esta librería.</p>
+
+
+
+<p>Lo primero que tienes que hacer es intalar esto:</p>
+
+
+
+<p><code>pip install webdriver-manager</code></p>
+
+
+
+<p>Una vez instalado con este simple código tendría que funcionar el navegador con selenium y python.</p>
+
+
+
+<pre class="wp-block-code"><code>from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(ChromeDriverManager().install())</code></pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/">WebDriver Chrome para Selenium en Python (Solución Automática)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/descargar-automaticamente-driver-chrome-para-selenium-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Transformas un texto en un texto plano con python</title>
+		<link>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/</link>
+					<comments>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 21 Dec 2018 08:03:39 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=242</guid>
+
+					<description><![CDATA[<p>Para transformar en cualquier texto en uno plano &#160; def limpiar_acentos(text): acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'} for acen in acentos: if acen in...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/">Transformas un texto en un texto plano con python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Para transformar en cualquier texto en uno plano</p>
+<p>&nbsp;</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">def limpiar_acentos(text):
+  acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
+  for acen in acentos:
+    if acen in text:
+      text = text.replace(acen, acentos[acen])
+  return text
+
+
+
+def texto_plano(texto):
+    
+    texto = limpiar_acentos(texto.lower())
+    texto = re.sub('[^A-Za-z0-9]+', ' ', texto)
+       
+    return texto
+
+def contador_palabras(texto):
+    contador = {}
+    palabras = texto.split(' ')
+    for palabra in palabras:
+        if palabra not in contador:
+            contador[palabra] = 1
+        else:
+            contador[palabra] += 1
+    return contador
+
+def buscar_palabra(palabra,texto):
+    tx = contador_palabras(texto_plano(texto))
+    if palabra in tx:
+        return palabra,tx[palabra]
+    else:
+        return palabra,0</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/">Transformas un texto en un texto plano con python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/transformas-un-texto-en-un-texto-plano-con-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Combinar varias listas en un ciclo for con Python</title>
+		<link>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/</link>
+					<comments>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 20:01:35 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=238</guid>
+
+					<description><![CDATA[<p>Si queremos combinar varias lista en un «loop» for en Python podemos utilizar un comando llamado «zip» Este es el ejemplo para por ejemplo imprimir una lista en grupos de...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/">Combinar varias listas en un ciclo for con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si queremos combinar varias lista en un «loop» for en Python podemos utilizar un comando llamado «zip»</p>
+<p>Este es el ejemplo para por ejemplo imprimir una lista en grupos de dos palabras o tres</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">
+# Estas son las listas
+
+lis1 = ['uno','dos','tres','cuatro','cinco','seis','siete']
+lis2 = lista[1:]
+lis3 = lista[2:]
+
+# Aquí imprimimos en grupos de dos palabras
+
+for (li,lis,) in zip(lis1,lis2): 
+     print (li,lis)
+
+# Aquí en grupos de tres palabras
+
+for (li,lis,liss) in zip(lis1,lis2,lis3): 
+     print (li,lis,liss)</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/">Combinar varias listas en un ciclo for con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/combinar-varias-listas-en-un-ciclo-for-con-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Scrapear html con regex en Python</title>
+		<link>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/</link>
+					<comments>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 11:21:48 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=220</guid>
+
+					<description><![CDATA[<p>Si queremos hacer un scraper de una página web y sacar algunos de los datos de ella aquí encontraras algunos ejemplos utilizando la libreria re de python. h1s = re.findall(r'&#60;h1.*?&#62;(.+?)&#60;',html)...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/">Scrapear html con regex en Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si queremos hacer un scraper de una página web y sacar algunos de los datos de ella aquí encontraras algunos ejemplos utilizando la libreria re de python.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">h1s = re.findall(r'&lt;h1.*?&gt;(.+?)&lt;',html)
+h2s = re.findall(r'&lt;h2.*?&gt;(.+?)&lt;',html)
+h3s = re.findall(r'&lt;h3.*?&gt;(.+?)&lt;',html)
+h4s = re.findall(r'&lt;h4.*?&gt;(.+?)&lt;',html)
+
+
+titulo = re.findall(r'&lt;title&gt;(.+?)&lt;/title&gt;',html)
+meta_titulo = re.findall(r'&lt;meta name="title" content="(.+?)"',html)
+meta_descripcion = re.findall(r'&lt;meta name="description" content="(.+?)"',html)
+meta_keywords = re.findall(r'&lt;meta name="keywords" content="(.+?)"',html)</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/">Scrapear html con regex en Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/scraperar-html-con-regex-en-python/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Simple función en Python para eliminar acentos o tildes</title>
+		<link>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/</link>
+					<comments>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/#comments</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Thu, 20 Dec 2018 08:32:18 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=218</guid>
+
+					<description><![CDATA[<p>Es posible que en alguna ocasión, necesitemos eliminar todos los acentos de un texto, aquí tienes unas simples líneas con las que eliminar todas las tildes utilizando el lenguaje de...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/">Simple función en Python para eliminar acentos o tildes</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Es posible que en alguna ocasión, necesitemos eliminar todos los acentos de un texto, aquí tienes unas simples líneas con las que eliminar todas las tildes utilizando el lenguaje de programación Python.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">def limpiar_acentos(text):
+	acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u', 'Á': 'A', 'E': 'E', 'Í': 'I', 'Ó': 'O', 'Ú': 'U'}
+	for acen in acentos:
+		if acen in text:
+			text = text.replace(acen, acentos[acen])
+	return text
+
+
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/">Simple función en Python para eliminar acentos o tildes</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/simple-funcion-python-eliminar-acentos-tildes/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Descargar archivo por FTP con Python</title>
+		<link>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/</link>
+					<comments>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/#comments</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sat, 24 Nov 2018 10:15:04 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=210</guid>
+
+					<description><![CDATA[<p>Si necesitamos descargar algún archivo desde un servidor remoto, lo podemos hacer gracias a Python. Entre las diferentes utilidades que se le puede dar a este pequeño pedazo de código...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/">Descargar archivo por FTP con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si necesitamos descargar algún archivo desde un servidor remoto, lo podemos hacer gracias a Python.<br />
+Entre las diferentes utilidades que se le puede dar a este pequeño pedazo de código seria la de por ejemplo hacer descargar los Backups de un servidor de forma automática.</p>
+<p>&nbsp;</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">"""
+Recursively backup all the files from a remote directory using ftp.
+"""
+
+# information about the source ftp server
+# and the target directory on my laptop
+
+hostname = 'ftp.dlptest.com'
+username = 'dlpuser@dlptest.com'
+password = 'e73jzTRTNqCN9PYAAjjn'
+start_directory = '/'
+backup_dir = 'C:\\Users\\Oficina\\Desktop\\back_wp\\hidro\\'
+
+import ftplib
+import os
+import datetime
+
+def get_files_directories():
+
+    dirlisting = []
+    
+    ftp_obj.retrlines('LIST',callback=dirlisting.append)
+    
+    files = []
+    directories = []
+    
+    for l in dirlisting:
+        lastspace = l.rindex(' ')
+        file_name = l[lastspace+1:]
+        if l[0] == 'd':
+            directories.append(file_name)
+        elif l[0] == '-':
+            files.append(file_name)
+            
+    return files,directories
+    
+def backup_directory(local_dir,remote_dir):
+
+    os.chdir(local_dir)
+    ftp_obj.cwd(remote_dir)
+    print('In directory '+remote_dir)
+
+    files,directories = get_files_directories()
+
+    for f in files:
+        print('Backing up OK'+f)
+        try:
+            ftp_obj.retrbinary('RETR '+f, open(f, 'wb').write)
+        except ftplib.error_perm:
+            print('Skipping '+f+' due to permissions')
+        
+    for d in directories:
+        newremote = remote_dir+d+'/'
+        newlocal = local_dir+'\\'+d
+        try:
+            os.mkdir(newlocal)
+        except:
+            continue
+        backup_directory(newlocal,newremote)
+        
+# Main program
+
+# backup directories under here
+
+os.chdir(backup_dir)
+
+# Create directory with today's date
+
+datestring = str(datetime.date.today())
+
+os.mkdir(datestring)
+os.chdir(datestring)
+local_dir = os.getcwd()
+
+# connect to ftp server
+
+ftp_obj = ftplib.FTP(host=hostname, user=username, passwd=password)
+
+# back up everthing from top directory
+
+remote_dir = start_directory
+
+backup_directory(local_dir,remote_dir)
+
+# quit ftp connection
+
+ftp_obj.quit()
+
+
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/">Descargar archivo por FTP con Python</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Espinear textos con Python (FÁCIL)</title>
+		<link>https://noteando.com/codigos-python/espinear-textos-con-python-facil/</link>
+					<comments>https://noteando.com/codigos-python/espinear-textos-con-python-facil/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Mon, 12 Nov 2018 09:51:32 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=187</guid>
+
+					<description><![CDATA[<p>Si tenemos un texto en formato «spin»  queremos transformarlo en texto normal este código en python nos hará el trabajo. """Ejemplo Texto Spin: Hola {mi nombre&#124;me llamo&#124;soy} {Antonio&#124;Toni&#124;Juan} y me...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/espinear-textos-con-python-facil/">Espinear textos con Python (FÁCIL)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si tenemos un texto en formato «spin»  queremos transformarlo en texto normal este código en python nos hará el trabajo.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python"> """Ejemplo Texto Spin:
+
+    Hola {mi nombre|me llamo|soy} {Antonio|Toni|Juan} y me gustan {los coches|las motos|los caballos}
+    
+    """
+
+
+def spin(content):
+   
+    start = content.find('{')
+    end = content.find('}')
+
+    if start == -1 and end == -1:
+        #none left
+        return content
+    elif start == -1:
+        return content
+    elif end == -1:
+        raise "unbalanced brace"
+    elif end &lt; start:
+        return content
+    elif start &lt; end:
+        rest = spin(content[start+1:])
+        end = rest.find('}')
+        if end == -1:
+            raise "unbalanced brace"
+        return content[:start] + random.choice(rest[:end].split('|')) + spin(rest[end+1:])
+
+</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/espinear-textos-con-python-facil/">Espinear textos con Python (FÁCIL)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/espinear-textos-con-python-facil/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>¿Como hacer comentarios en Python? (SOLUCIÓN)</title>
+		<link>https://noteando.com/codigos-python/como-hacer-comentarios-en-python-solucion/</link>
+					<comments>https://noteando.com/codigos-python/como-hacer-comentarios-en-python-solucion/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sat, 10 Nov 2018 19:36:12 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Basico]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=134</guid>
+
+					<description><![CDATA[<p>Los comentarios es algo muy importante a la hora de programar, ya sea para dar información adicional para un futuro como para ayudar a otras personas involucradas en el proyecto....</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/como-hacer-comentarios-en-python-solucion/">¿Como hacer comentarios en Python? (SOLUCIÓN)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><strong>Los comentarios es algo muy importante</strong> a la hora de programar, ya sea para dar información adicional para un futuro como para ayudar a otras personas involucradas en el proyecto.</p>
+<p>Para comentar podremos utilizar <strong>la almohadilla «#» para comentar una línea</strong> o <strong>tres comillas para comentar un texto más largo</strong> de varios renglones, en este caso se pueden utilizar tanto las comillas simples como las comillas dobles siempre en grupos de tres.  Aquí tienes un ejemplo para que veas lo fácil que es.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python"># Aquí pedimos el nombre
+
+nombre = input('¿Cual es tu nombre?')
+
+# Esta línea hace que se imprima el resultado
+
+print ('Tu nombre es: ' + nombre)
+
+"""
+Así de simple es comentar en Python, ESTO ES PARA COMENTAR UN TEXTO Más LARGO O EN 
+
+                VARIAS Líneas
+
+   Recuerda: Comentar es importante y ayuda a que tu trabajo sea más fácil de entender por otros humanos, las maquinas ignoran estas líneas
+"""
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/como-hacer-comentarios-en-python-solucion/">¿Como hacer comentarios en Python? (SOLUCIÓN)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/como-hacer-comentarios-en-python-solucion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Selenium Navegador Basico (EJEMPLO PYTHON)</title>
+		<link>https://noteando.com/codigos-python/selenium-navegador-basico-ejemplo/</link>
+					<comments>https://noteando.com/codigos-python/selenium-navegador-basico-ejemplo/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sat, 10 Nov 2018 19:08:30 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Selenium]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=125</guid>
+
+					<description><![CDATA[<p>Selenium es la librería que mas cariño le tengo, ya con ella empece a programar en Python. Mis inquietudes que me hicieron empezar a programar fue la creación de bots...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/selenium-navegador-basico-ejemplo/">Selenium Navegador Basico (EJEMPLO PYTHON)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Selenium es la librería que mas cariño le tengo, ya con ella empece a programar en Python.</p>
+<p>Mis inquietudes que me hicieron empezar a programar fue la creación de bots y esta librería es la mejor, cierto es que con el paso del tiempo me estoy haciendo mas purista.</p>
+<h2>Ejemplo para lanzar el navegador Firefox:</h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">from selenium import webdriver
+driver = webdriver.Firefox()
+driver.get('https://noteando.com/')
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/selenium-navegador-basico-ejemplo/">Selenium Navegador Basico (EJEMPLO PYTHON)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/selenium-navegador-basico-ejemplo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Modulo requests de Pytho (EJEMPLOS)</title>
+		<link>https://noteando.com/codigos-python/modulo-requests-de-pytho-buenos-ejemplos/</link>
+					<comments>https://noteando.com/codigos-python/modulo-requests-de-pytho-buenos-ejemplos/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sat, 10 Nov 2018 18:17:38 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Requests]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=104</guid>
+
+					<description><![CDATA[<p>Este es uno de mis modulo preferidos por su sencillez y gran potencia, para que veas lo fácil que es, solo necesitamos dos lineas, la tercera es para validar la...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/modulo-requests-de-pytho-buenos-ejemplos/">Modulo requests de Pytho (EJEMPLOS)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Este es uno de mis modulo preferidos por su sencillez y gran potencia, para que veas lo fácil que es, solo necesitamos dos lineas, la tercera es para validar la conexión.</p>
+<h2>Ejemplo:</h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">import requests
+html = requests.get('https://noteando.com/')
+html.encoding = 'utf-8'
+print (html.status_code) # Si respondo 200 es que todo esta OK</pre>
+<p>&nbsp;</p>
+<p>El modulo requests de python se utiliza para conectarnos a diferentes paginas por diversos motivos.</p>
+<p>Este ejemplo se basa a la hora de hacer algún bot o script el cual queremos que pase lo mas desbastecido posible.</p>
+<p>Para hacer esto tenemos que crear una cabecera convincente y no esta de mas añadir un referer a nuestra cabecera.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">import requests
+
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+
+referer = 'https://noteando.com/'
+
+header = {'User-Agent': user_agent , 'referer': referer }
+ 
+html = requests.get('https://noteando.com/test-referer.php', headers = header, verify=False, stream=True)
+html.encoding = 'utf-8'
+print (html.text) # Aquí veras el código fuente de la pagina
+</pre>
+<h2>Información Añadida:</h2>
+<p>El User-Agent: Esta es una información que les tramite nuestro navegador a pagina que estamos visitando para mejorar nuestra experiencia como usuario entre otras funciones.</p>
+<p>El referer: Le informa a la pagina de donde llegamos, es decir la pagina donde hemos hecho click para llegar aquí.</p>
+<p>&nbsp;</p>
+<h2>Y Ahora con Proxys:</h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="python">import requests
+
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+
+referer = 'https://noteando.com/'
+
+http_proxy  = "http://10.10.1.10:3128/"
+https_proxy = "https://10.10.1.11:1080/"
+ftp_proxy   = "ftp://10.10.1.10:3128"
+
+proxyDict = { 
+              "http"  : http_proxy, 
+              "https" : https_proxy, 
+              "ftp"   : ftp_proxy
+            }
+
+
+header = {'User-Agent': user_agent , 'referer': referer }
+ 
+html = requests.get('https://noteando.com/test-referer.php', headers = header, verify=False, stream=True , proxies = proxyDict)
+print (html) # Aquí veras el código fuente de la pagina
+
+</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-python/modulo-requests-de-pytho-buenos-ejemplos/">Modulo requests de Pytho (EJEMPLOS)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-python/modulo-requests-de-pytho-buenos-ejemplos/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

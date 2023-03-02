@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lavanda-una-de-las-plantas-favoritas-de-la-industria-cosmetica", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/carpas-cuales-son-las-mejores-para-cocinar", {data:[{}],fetch:{},mutations:void 0});

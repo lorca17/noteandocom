@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-belleza-de-la-flor-de-la-caparra", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/violeta-africana-una-joya-para-los-interiores", {data:[{}],fetch:{},mutations:void 0});

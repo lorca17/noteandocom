@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-decorar-vasos", {data:[{}],fetch:{},mutations:void 0});

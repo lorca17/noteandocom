@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-creativas-y-economicas-para-decorar-un-reloj-de-pared", {data:[{}],fetch:{},mutations:void 0});

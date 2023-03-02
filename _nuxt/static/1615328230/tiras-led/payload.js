@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tiras-led", {data:[{}],fetch:{},mutations:void 0});

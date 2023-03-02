@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comentarios en: Descargar archivo por FTP con Python	</title>
+	<atom:link href="https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Fri, 23 Aug 2019 12:53:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>
+		Por: Francisco Lopez		</title>
+		<link>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/#comment-119</link>
+
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 23 Aug 2019 12:53:04 +0000</pubDate>
+		<guid isPermaLink="false">https://noteando.com/?p=210#comment-119</guid>
+
+					<description><![CDATA[https://noteando.com/]]></description>
+			<content:encoded><![CDATA[<p><a href="https://noteando.com/" rel="nofollow ugc">https://noteando.com/</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Por: Francisco Lopez		</title>
+		<link>https://noteando.com/codigos-python/descargar-archivo-por-ftp-con-python/#comment-118</link>
+
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 23 Aug 2019 12:52:53 +0000</pubDate>
+		<guid isPermaLink="false">https://noteando.com/?p=210#comment-118</guid>
+
+					<description><![CDATA[hooa, &lt;a href=&quot;http://google.es&quot;/ rel=&quot;nofollow&quot;&gt;hols&lt;/a&gt;]]></description>
+			<content:encoded><![CDATA[<p>hooa, <a href="http://google.es/" rel="nofollow">hols</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

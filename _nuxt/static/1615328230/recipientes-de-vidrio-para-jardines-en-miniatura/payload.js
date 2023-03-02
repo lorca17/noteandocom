@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/recipientes-de-vidrio-para-jardines-en-miniatura", {data:[{}],fetch:{},mutations:void 0});

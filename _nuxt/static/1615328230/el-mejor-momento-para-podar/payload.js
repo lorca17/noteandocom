@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-mejor-momento-para-podar", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/geranio-cultivo-y-cuidado", {data:[{}],fetch:{},mutations:void 0});

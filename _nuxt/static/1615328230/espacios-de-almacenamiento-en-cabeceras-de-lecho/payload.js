@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/espacios-de-almacenamiento-en-cabeceras-de-lecho", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/soluciones-para-fijar-perdidas", {data:[{}],fetch:{},mutations:void 0});

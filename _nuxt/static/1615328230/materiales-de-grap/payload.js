@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/materiales-de-grap", {data:[{}],fetch:{},mutations:void 0});

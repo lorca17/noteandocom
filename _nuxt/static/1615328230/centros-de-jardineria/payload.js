@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/centros-de-jardineria", {data:[{}],fetch:{},mutations:void 0});

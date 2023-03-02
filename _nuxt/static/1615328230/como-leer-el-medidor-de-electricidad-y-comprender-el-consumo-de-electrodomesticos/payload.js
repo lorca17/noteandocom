@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-leer-el-medidor-de-electricidad-y-comprender-el-consumo-de-electrodomesticos", {data:[{}],fetch:{},mutations:void 0});

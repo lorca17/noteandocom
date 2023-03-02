@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instale-un-lavabo-montado-en-un-mueble", {data:[{}],fetch:{},mutations:void 0});

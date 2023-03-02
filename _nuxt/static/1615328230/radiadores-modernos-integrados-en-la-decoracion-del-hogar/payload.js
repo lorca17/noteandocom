@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/radiadores-modernos-integrados-en-la-decoracion-del-hogar", {data:[{}],fetch:{},mutations:void 0});

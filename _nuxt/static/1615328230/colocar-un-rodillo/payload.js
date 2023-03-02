@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/colocar-un-rodillo", {data:[{}],fetch:{},mutations:void 0});

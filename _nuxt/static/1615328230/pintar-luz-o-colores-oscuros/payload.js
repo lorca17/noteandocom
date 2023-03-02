@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pintar-luz-o-colores-oscuros", {data:[{}],fetch:{},mutations:void 0});

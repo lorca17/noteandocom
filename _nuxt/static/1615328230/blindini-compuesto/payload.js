@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blindini-compuesto", {data:[{}],fetch:{},mutations:void 0});

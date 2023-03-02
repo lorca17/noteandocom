@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/escaladores-aromaticos-mejor-lejos-de-las-ventanas-y-areas-de-descanso", {data:[{}],fetch:{},mutations:void 0});

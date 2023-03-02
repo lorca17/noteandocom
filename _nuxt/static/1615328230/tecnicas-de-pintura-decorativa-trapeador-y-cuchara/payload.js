@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnicas-de-pintura-decorativa-trapeador-y-cuchara", {data:[{}],fetch:{},mutations:void 0});

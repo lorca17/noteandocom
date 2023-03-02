@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/salslers-decora-y-anima-la-mesa", {data:[{}],fetch:{},mutations:void 0});

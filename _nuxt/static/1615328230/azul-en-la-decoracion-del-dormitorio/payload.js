@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/azul-en-la-decoracion-del-dormitorio", {data:[{}],fetch:{},mutations:void 0});

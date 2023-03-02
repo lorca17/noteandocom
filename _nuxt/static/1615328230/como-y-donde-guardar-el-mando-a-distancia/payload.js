@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-y-donde-guardar-el-mando-a-distancia", {data:[{}],fetch:{},mutations:void 0});

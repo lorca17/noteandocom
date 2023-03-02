@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/musgo-en-el-jardin", {data:[{}],fetch:{},mutations:void 0});

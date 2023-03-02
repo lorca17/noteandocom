@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-papel-reciclado", {data:[{}],fetch:{},mutations:void 0});

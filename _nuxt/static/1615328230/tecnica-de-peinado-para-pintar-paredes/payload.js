@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnica-de-peinado-para-pintar-paredes", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tapizado-multiples-ventajas-para-el-jardin", {data:[{}],fetch:{},mutations:void 0});

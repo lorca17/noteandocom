@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/perdida-en-el-bano", {data:[{}],fetch:{},mutations:void 0});

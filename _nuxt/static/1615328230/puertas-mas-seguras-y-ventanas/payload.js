@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/puertas-mas-seguras-y-ventanas", {data:[{}],fetch:{},mutations:void 0});

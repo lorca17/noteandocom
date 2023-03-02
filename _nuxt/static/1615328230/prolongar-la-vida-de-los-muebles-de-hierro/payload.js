@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/prolongar-la-vida-de-los-muebles-de-hierro", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-toldo-para-aprovechar-el-balcon-en-el-verano", {data:[{}],fetch:{},mutations:void 0});

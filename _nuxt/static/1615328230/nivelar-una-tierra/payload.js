@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/nivelar-una-tierra", {data:[{}],fetch:{},mutations:void 0});

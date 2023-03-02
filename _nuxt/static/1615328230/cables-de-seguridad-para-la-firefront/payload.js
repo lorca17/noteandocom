@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cables-de-seguridad-para-la-firefront", {data:[{}],fetch:{},mutations:void 0});

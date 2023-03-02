@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-un-marco-de-fotos-navideno-con-bolsas-de-papel", {data:[{}],fetch:{},mutations:void 0});

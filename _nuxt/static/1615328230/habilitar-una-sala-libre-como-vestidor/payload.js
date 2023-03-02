@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/habilitar-una-sala-libre-como-vestidor", {data:[{}],fetch:{},mutations:void 0});

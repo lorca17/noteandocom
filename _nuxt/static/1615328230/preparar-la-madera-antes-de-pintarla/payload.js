@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/preparar-la-madera-antes-de-pintarla", {data:[{}],fetch:{},mutations:void 0});

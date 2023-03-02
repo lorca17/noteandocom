@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mesas-plegables-para-ahorrar-espacio", {data:[{}],fetch:{},mutations:void 0});

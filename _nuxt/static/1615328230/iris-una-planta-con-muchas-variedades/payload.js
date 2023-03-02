@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/iris-una-planta-con-muchas-variedades", {data:[{}],fetch:{},mutations:void 0});

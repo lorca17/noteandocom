@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cortar-azulejos-y-azulejos-sin-romperse", {data:[{}],fetch:{},mutations:void 0});

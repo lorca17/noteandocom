@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-poda-de-coberturas-y-arbustos", {data:[{}],fetch:{},mutations:void 0});

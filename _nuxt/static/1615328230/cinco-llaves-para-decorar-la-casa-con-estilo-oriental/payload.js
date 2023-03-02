@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cinco-llaves-para-decorar-la-casa-con-estilo-oriental", {data:[{}],fetch:{},mutations:void 0});

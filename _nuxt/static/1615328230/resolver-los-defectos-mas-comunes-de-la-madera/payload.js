@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/resolver-los-defectos-mas-comunes-de-la-madera", {data:[{}],fetch:{},mutations:void 0});

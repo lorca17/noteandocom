@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/muebles-de-hierro-elegancia-rustica", {data:[{}],fetch:{},mutations:void 0});

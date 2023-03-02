@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/estantes-bien-posicionados-para-que-la-cocina-sea-ordenada", {data:[{}],fetch:{},mutations:void 0});

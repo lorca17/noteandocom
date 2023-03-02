@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-clavel-un-clasico-de-la-semana-santa", {data:[{}],fetch:{},mutations:void 0});

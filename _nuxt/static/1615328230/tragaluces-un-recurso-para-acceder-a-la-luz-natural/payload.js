@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tragaluces-un-recurso-para-acceder-a-la-luz-natural", {data:[{}],fetch:{},mutations:void 0});

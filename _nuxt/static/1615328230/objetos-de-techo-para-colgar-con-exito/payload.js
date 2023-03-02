@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/objetos-de-techo-para-colgar-con-exito", {data:[{}],fetch:{},mutations:void 0});

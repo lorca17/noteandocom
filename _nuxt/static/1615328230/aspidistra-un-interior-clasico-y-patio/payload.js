@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/aspidistra-un-interior-clasico-y-patio", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-mejor-ubicacion-para-un-radiador-en-el-bano", {data:[{}],fetch:{},mutations:void 0});

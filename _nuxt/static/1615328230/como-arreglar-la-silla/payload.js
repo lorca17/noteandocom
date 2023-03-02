@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-arreglar-la-silla", {data:[{}],fetch:{},mutations:void 0});

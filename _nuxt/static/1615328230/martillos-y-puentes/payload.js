@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/martillos-y-puentes", {data:[{}],fetch:{},mutations:void 0});

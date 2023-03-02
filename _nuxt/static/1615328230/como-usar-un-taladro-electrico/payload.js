@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-usar-un-taladro-electrico", {data:[{}],fetch:{},mutations:void 0});

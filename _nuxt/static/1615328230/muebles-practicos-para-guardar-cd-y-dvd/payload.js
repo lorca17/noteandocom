@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/muebles-practicos-para-guardar-cd-y-dvd", {data:[{}],fetch:{},mutations:void 0});

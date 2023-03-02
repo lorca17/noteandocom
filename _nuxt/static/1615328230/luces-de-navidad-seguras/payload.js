@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/luces-de-navidad-seguras", {data:[{}],fetch:{},mutations:void 0});

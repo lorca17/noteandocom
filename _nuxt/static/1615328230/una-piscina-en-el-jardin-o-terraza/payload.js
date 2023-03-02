@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/una-piscina-en-el-jardin-o-terraza", {data:[{}],fetch:{},mutations:void 0});

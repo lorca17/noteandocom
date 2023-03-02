@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proceso-correcto-para-cubrir-los-especimenes-de-trasplante", {data:[{}],fetch:{},mutations:void 0});

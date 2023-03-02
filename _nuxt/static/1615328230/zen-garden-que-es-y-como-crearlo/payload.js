@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/zen-garden-que-es-y-como-crearlo", {data:[{}],fetch:{},mutations:void 0});

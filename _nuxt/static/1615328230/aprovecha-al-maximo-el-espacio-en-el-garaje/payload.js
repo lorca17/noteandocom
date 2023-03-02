@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/aprovecha-al-maximo-el-espacio-en-el-garaje", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/especies-practicas-y-decorativas-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

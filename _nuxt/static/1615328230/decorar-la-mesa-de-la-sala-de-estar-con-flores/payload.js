@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decorar-la-mesa-de-la-sala-de-estar-con-flores", {data:[{}],fetch:{},mutations:void 0});

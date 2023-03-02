@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/almohadas-para-condicionar-y-decorar-sillas", {data:[{}],fetch:{},mutations:void 0});

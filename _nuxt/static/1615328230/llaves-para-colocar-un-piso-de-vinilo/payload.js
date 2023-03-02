@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/llaves-para-colocar-un-piso-de-vinilo", {data:[{}],fetch:{},mutations:void 0});

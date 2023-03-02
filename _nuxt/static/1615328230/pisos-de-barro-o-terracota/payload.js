@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pisos-de-barro-o-terracota", {data:[{}],fetch:{},mutations:void 0});

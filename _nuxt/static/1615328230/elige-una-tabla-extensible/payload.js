@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/elige-una-tabla-extensible", {data:[{}],fetch:{},mutations:void 0});

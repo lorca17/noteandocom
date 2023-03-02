@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-decorar-el-ano-nuevo", {data:[{}],fetch:{},mutations:void 0});

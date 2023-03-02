@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-multiplicacion-de-plantas-por-division", {data:[{}],fetch:{},mutations:void 0});

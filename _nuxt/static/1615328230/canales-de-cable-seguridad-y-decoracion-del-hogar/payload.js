@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/canales-de-cable-seguridad-y-decoracion-del-hogar", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-rodillos-son-todos-iguales", {data:[{}],fetch:{},mutations:void 0});

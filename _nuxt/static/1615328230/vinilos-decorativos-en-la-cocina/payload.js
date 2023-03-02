@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/vinilos-decorativos-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

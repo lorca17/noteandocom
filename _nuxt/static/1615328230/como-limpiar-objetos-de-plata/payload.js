@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-limpiar-objetos-de-plata", {data:[{}],fetch:{},mutations:void 0});

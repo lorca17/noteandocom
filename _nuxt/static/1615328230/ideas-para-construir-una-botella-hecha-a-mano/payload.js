@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-construir-una-botella-hecha-a-mano", {data:[{}],fetch:{},mutations:void 0});

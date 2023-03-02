@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-reparar-una-puerta-rayada", {data:[{}],fetch:{},mutations:void 0});

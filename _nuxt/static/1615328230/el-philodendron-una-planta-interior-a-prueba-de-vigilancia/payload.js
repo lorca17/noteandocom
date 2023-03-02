@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-philodendron-una-planta-interior-a-prueba-de-vigilancia", {data:[{}],fetch:{},mutations:void 0});

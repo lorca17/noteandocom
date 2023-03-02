@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ceras-naturales-para-muebles-de-madera", {data:[{}],fetch:{},mutations:void 0});

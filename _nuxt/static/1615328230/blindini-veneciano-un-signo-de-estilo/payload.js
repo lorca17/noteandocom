@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blindini-veneciano-un-signo-de-estilo", {data:[{}],fetch:{},mutations:void 0});

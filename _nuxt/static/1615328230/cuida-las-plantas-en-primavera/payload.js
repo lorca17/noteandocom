@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cuida-las-plantas-en-primavera", {data:[{}],fetch:{},mutations:void 0});

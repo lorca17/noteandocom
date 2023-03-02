@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/perillas-originales-en-toda-la-casa", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/muebles-de-esquina-para-aprovechar-las-esquinas", {data:[{}],fetch:{},mutations:void 0});

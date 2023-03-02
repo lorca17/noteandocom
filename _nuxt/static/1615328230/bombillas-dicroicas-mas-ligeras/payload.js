@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bombillas-dicroicas-mas-ligeras", {data:[{}],fetch:{},mutations:void 0});

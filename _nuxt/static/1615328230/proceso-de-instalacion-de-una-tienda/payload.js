@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proceso-de-instalacion-de-una-tienda", {data:[{}],fetch:{},mutations:void 0});

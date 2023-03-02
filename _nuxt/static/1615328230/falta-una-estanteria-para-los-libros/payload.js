@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/falta-una-estanteria-para-los-libros", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSS &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/css/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Sun, 08 Mar 2020 10:23:54 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>Política de Cookies Sin Plugins en WordPress</title>
+		<link>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 09:59:33 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Php]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=372</guid>
+
+					<description><![CDATA[<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina. Este código lo utilizamos en...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina.</p>
+
+
+
+<p class="has-text-align-center">Este código lo utilizamos en esta página, <strong>así sirve de ejemplo</strong> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+
+
+
+<p>Este es un sencillo código en javascript y css que te optimiza el código y que más o menos cumple la ley.</p>
+
+
+
+<p>El más o menos se refiere a que según la ley no se puede meter cookies antes de dar al <strong>botón de «ACEPTAR»</strong>, pero he visto pocas páginas que carguen el <a href="https://analytics.google.com/">Analytics</a> o el <a href="https://www.google.com/intl/es_es/adsense/start/">Adense</a> después de dar a este botón, así que tranquilo.</p>
+
+
+
+<pre class="wp-block-code"><code>  &lt;!-- inico cookies -->
+         &lt;style>
+.cookieConsentContainer {
+	z-index: 999;
+	width: 350px;
+	min-height: 20px;
+	box-sizing: border-box;
+	padding: 30px 30px 30px 30px;
+	background: #232323;
+	overflow: hidden;
+	position: fixed;
+    bottom: 30px;
+	right: 30px;
+	display: none;
+}
+.cookieConsentContainer .cookieTitle a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 20px;
+	display: block;
+}
+.cookieConsentContainer .cookieDesc p {
+	margin: 0;
+	padding: 0;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	display: block;
+	margin-top: 10px;
+} .cookieConsentContainer .cookieDesc a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.cookieConsentContainer .cookieButton a {
+	display: inline-block;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+	background: #000000;
+	box-sizing: border-box; 
+	padding: 15px 24px;
+	text-align: center;
+	transition: background 0.3s;
+}
+.cookieConsentContainer .cookieButton a:hover { 
+	cursor: pointer;
+	background: #3E9B67;
+}
+
+@media (max-width: 980px) {
+	.cookieConsentContainer {
+		bottom: 0px !important;
+		left: 0px !important;
+		width: 100%  !important;
+	}
+
+&lt;/style>
+&lt;script language='javascript'>
+// --- Config --- //
+var purecookieTitle = "Cookies."; // Title
+var purecookieDesc = "Esta pagina utiliza cookies, Al usar este sitio web, acepta automáticamente que usemos cookies"; // Description
+var purecookieLink = '&lt;a href="/aviso-de-cookies/" rel="nofollow" target="_blank">Saber Mas&lt;/a>'; // Cookiepolicy link
+var purecookieButton = "Ok, Entiendo"; // Button text
+// ---        --- //
+
+
+function pureFadeIn(elem, display){
+  var el = document.getElementById(elem);
+  el.style.opacity = 0;
+  el.style.display = display || "block";
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .02) > 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+function pureFadeOut(elem){
+  var el = document.getElementById(elem);
+  el.style.opacity = 1;
+
+  (function fade() {
+    if ((el.style.opacity -= .02) &lt; 0) {
+      el.style.display = "none";
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i &lt; ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+
+function cookieConsent() {
+  if (!getCookie('purecookieDismiss')) {
+    document.body.innerHTML += '&lt;div class="cookieConsentContainer" id="cookieConsentContainer">&lt;div class="cookieTitle">&lt;a>' + purecookieTitle + '&lt;/a>&lt;/div>&lt;div class="cookieDesc">&lt;p>' + purecookieDesc + ' ' + purecookieLink + '&lt;/p>&lt;/div>&lt;div class="cookieButton">&lt;a onClick="purecookieDismiss();">' + purecookieButton + '&lt;/a>&lt;/div>&lt;/div>';
+	pureFadeIn("cookieConsentContainer");
+  }
+}
+
+function purecookieDismiss() {
+  setCookie('purecookieDismiss','1',7);
+  pureFadeOut("cookieConsentContainer");
+}
+
+window.onload = function() { cookieConsent(); };
+&lt;/script>
+        &lt;!-- fin cookies --></code></pre>
+
+
+
+<p>Solo tienes que <strong>copiar y pegar</strong> al final del archivo footer.php de tu página y <strong>crear la pagina con la url «/aviso-de-cookies/»</strong></p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Añadir icono de Amazon a los enlaces de Afiliacion</title>
+		<link>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/</link>
+					<comments>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 09:13:03 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=322</guid>
+
+					<description><![CDATA[<p>Si sueles poner enlaces de afiliación de Amazon y quieres cumplir sus políticas una forma fácil de que el usuario detecte que es un enlace de afiliación es colocar este...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/">Añadir icono de Amazon a los enlaces de Afiliacion</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si sueles poner enlaces de afiliación de Amazon y <strong>quieres cumplir sus políticas</strong> una forma fácil de que el usuario detecte que es un enlace de afiliación es colocar este simpático icono.</p>
+
+
+
+<p>Este es el código que tienes que añadir al archivo css de tu página.</p>
+
+
+
+<pre class="wp-block-code"><code>a[href^="https://amzn.to/"] {
+background: url("https://noteando.com/icon-amazon.gif") no-repeat top right;
+padding-right:15px;
+}
+</code></pre>
+
+
+
+<p><strong>Aquí tienes un ejemplo</strong> de como quedaría el enlace de afiliación:</p>
+
+
+
+<p class="has-text-align-center">Estas son las <a rel="nofollow noreferrer noopener" aria-label=" (se abre en una nueva pestaña)" href="https://amzn.to/332h1zW" target="_blank">Gafas de Sol</a> que <strong>tu cara necesita</strong>.</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/">Añadir icono de Amazon a los enlaces de Afiliacion</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/css/anadir-icono-de-amazon-a-los-enlaces-de-afiliacion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

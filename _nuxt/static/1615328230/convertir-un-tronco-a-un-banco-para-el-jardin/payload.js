@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/convertir-un-tronco-a-un-banco-para-el-jardin", {data:[{}],fetch:{},mutations:void 0});

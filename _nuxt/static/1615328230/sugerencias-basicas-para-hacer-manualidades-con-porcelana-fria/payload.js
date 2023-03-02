@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sugerencias-basicas-para-hacer-manualidades-con-porcelana-fria", {data:[{}],fetch:{},mutations:void 0});

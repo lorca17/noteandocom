@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cubierta-de-agujeros-de-madera-con-estuco", {data:[{}],fetch:{},mutations:void 0});

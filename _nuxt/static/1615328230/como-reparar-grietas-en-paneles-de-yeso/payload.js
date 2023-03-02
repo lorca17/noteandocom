@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-reparar-grietas-en-paneles-de-yeso", {data:[{}],fetch:{},mutations:void 0});

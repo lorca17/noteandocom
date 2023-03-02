@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-limpiar-el-teclado-de-la-computadora", {data:[{}],fetch:{},mutations:void 0});

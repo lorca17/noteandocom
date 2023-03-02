@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/elegantes-estanterias-para-libros-en-la-sala-de-estar", {data:[{}],fetch:{},mutations:void 0});

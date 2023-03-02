@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/plantas-aromaticas", {data:[{}],fetch:{},mutations:void 0});

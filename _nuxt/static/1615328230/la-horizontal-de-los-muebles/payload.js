@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-horizontal-de-los-muebles", {data:[{}],fetch:{},mutations:void 0});

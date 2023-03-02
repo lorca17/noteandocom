@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-televisor-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

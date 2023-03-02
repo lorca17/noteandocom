@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reparar-vasos-pequenos", {data:[{}],fetch:{},mutations:void 0});

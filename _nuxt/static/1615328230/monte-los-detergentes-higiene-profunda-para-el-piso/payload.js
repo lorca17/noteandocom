@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/monte-los-detergentes-higiene-profunda-para-el-piso", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/el-rododendro-una-planta-de-altura", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/anadir-nuevas-tierras-a-las-plantas-para-obtener-mejores-flores", {data:[{}],fetch:{},mutations:void 0});

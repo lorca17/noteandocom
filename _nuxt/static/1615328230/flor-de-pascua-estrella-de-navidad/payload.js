@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flor-de-pascua-estrella-de-navidad", {data:[{}],fetch:{},mutations:void 0});

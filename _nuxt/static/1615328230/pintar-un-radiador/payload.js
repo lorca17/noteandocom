@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pintar-un-radiador", {data:[{}],fetch:{},mutations:void 0});

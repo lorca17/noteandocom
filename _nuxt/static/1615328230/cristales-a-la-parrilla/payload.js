@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cristales-a-la-parrilla", {data:[{}],fetch:{},mutations:void 0});

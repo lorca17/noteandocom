@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/trucos-para-reutilizar-cepillos-de-dientes", {data:[{}],fetch:{},mutations:void 0});

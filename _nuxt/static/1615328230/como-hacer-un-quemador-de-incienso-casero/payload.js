@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-un-quemador-de-incienso-casero", {data:[{}],fetch:{},mutations:void 0});

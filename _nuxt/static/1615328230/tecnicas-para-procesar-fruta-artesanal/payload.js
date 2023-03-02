@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tecnicas-para-procesar-fruta-artesanal", {data:[{}],fetch:{},mutations:void 0});

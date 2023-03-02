@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tradescantia-una-planta-que-se-ajusta-al-interior-y-el-jardin", {data:[{}],fetch:{},mutations:void 0});

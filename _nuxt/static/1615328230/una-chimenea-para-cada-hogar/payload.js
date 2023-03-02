@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/una-chimenea-para-cada-hogar", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/barcos-y-paquetes-abiertos-en-la-cocina", {data:[{}],fetch:{},mutations:void 0});

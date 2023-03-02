@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/la-cama-para-leer-mas-comoda-con-estantes-y-buena-luz", {data:[{}],fetch:{},mutations:void 0});

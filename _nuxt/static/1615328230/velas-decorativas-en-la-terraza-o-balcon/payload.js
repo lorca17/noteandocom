@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/velas-decorativas-en-la-terraza-o-balcon", {data:[{}],fetch:{},mutations:void 0});

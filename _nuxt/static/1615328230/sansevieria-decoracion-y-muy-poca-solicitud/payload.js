@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sansevieria-decoracion-y-muy-poca-solicitud", {data:[{}],fetch:{},mutations:void 0});

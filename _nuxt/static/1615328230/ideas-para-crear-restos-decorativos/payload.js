@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-crear-restos-decorativos", {data:[{}],fetch:{},mutations:void 0});

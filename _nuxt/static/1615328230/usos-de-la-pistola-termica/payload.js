@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/usos-de-la-pistola-termica", {data:[{}],fetch:{},mutations:void 0});

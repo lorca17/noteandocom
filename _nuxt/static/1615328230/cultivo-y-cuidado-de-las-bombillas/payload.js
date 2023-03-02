@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cultivo-y-cuidado-de-las-bombillas", {data:[{}],fetch:{},mutations:void 0});

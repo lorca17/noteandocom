@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tela", {data:[{}],fetch:{},mutations:void 0});

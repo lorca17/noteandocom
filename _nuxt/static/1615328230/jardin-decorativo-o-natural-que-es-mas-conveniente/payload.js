@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jardin-decorativo-o-natural-que-es-mas-conveniente", {data:[{}],fetch:{},mutations:void 0});

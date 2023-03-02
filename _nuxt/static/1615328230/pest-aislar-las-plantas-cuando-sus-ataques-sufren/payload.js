@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pest-aislar-las-plantas-cuando-sus-ataques-sufren", {data:[{}],fetch:{},mutations:void 0});

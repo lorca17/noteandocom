@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-crear-lamparas-con-objetos-reutilizados", {data:[{}],fetch:{},mutations:void 0});

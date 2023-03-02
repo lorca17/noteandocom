@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-pintar-azulejos", {data:[{}],fetch:{},mutations:void 0});

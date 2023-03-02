@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mas-que-una-planta-en-maceta-para-preservar-la-humedad", {data:[{}],fetch:{},mutations:void 0});

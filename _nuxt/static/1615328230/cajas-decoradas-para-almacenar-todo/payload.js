@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cajas-decoradas-para-almacenar-todo", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Php &#8211; NOTEando</title>
+	<atom:link href="https://noteando.com/category/codigos-php/feed/" rel="self" type="application/rss+xml" />
+	<link>https://noteando.com</link>
+	<description>Optimiza tu Tiempo y Aprender Más</description>
+	<lastBuildDate>Sun, 08 Mar 2020 10:23:54 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+	<item>
+		<title>Política de Cookies Sin Plugins en WordPress</title>
+		<link>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 09:59:33 +0000</pubDate>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Php]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=372</guid>
+
+					<description><![CDATA[<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina. Este código lo utilizamos en...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Si quieres cumplir la ley y no quieres que tu página en WordPress deje de estar optimizada, no utilices pesados plugins como en esta pagina.</p>
+
+
+
+<p class="has-text-align-center">Este código lo utilizamos en esta página, <strong>así sirve de ejemplo</strong> <img src="https://s.w.org/images/core/emoji/13.0.0/72x72/1f603.png" alt="😃" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+
+
+
+<p>Este es un sencillo código en javascript y css que te optimiza el código y que más o menos cumple la ley.</p>
+
+
+
+<p>El más o menos se refiere a que según la ley no se puede meter cookies antes de dar al <strong>botón de «ACEPTAR»</strong>, pero he visto pocas páginas que carguen el <a href="https://analytics.google.com/">Analytics</a> o el <a href="https://www.google.com/intl/es_es/adsense/start/">Adense</a> después de dar a este botón, así que tranquilo.</p>
+
+
+
+<pre class="wp-block-code"><code>  &lt;!-- inico cookies -->
+         &lt;style>
+.cookieConsentContainer {
+	z-index: 999;
+	width: 350px;
+	min-height: 20px;
+	box-sizing: border-box;
+	padding: 30px 30px 30px 30px;
+	background: #232323;
+	overflow: hidden;
+	position: fixed;
+    bottom: 30px;
+	right: 30px;
+	display: none;
+}
+.cookieConsentContainer .cookieTitle a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 20px;
+	display: block;
+}
+.cookieConsentContainer .cookieDesc p {
+	margin: 0;
+	padding: 0;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	display: block;
+	margin-top: 10px;
+} .cookieConsentContainer .cookieDesc a {
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.cookieConsentContainer .cookieButton a {
+	display: inline-block;
+	font-family: OpenSans, arial, "sans-serif";
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+	background: #000000;
+	box-sizing: border-box; 
+	padding: 15px 24px;
+	text-align: center;
+	transition: background 0.3s;
+}
+.cookieConsentContainer .cookieButton a:hover { 
+	cursor: pointer;
+	background: #3E9B67;
+}
+
+@media (max-width: 980px) {
+	.cookieConsentContainer {
+		bottom: 0px !important;
+		left: 0px !important;
+		width: 100%  !important;
+	}
+
+&lt;/style>
+&lt;script language='javascript'>
+// --- Config --- //
+var purecookieTitle = "Cookies."; // Title
+var purecookieDesc = "Esta pagina utiliza cookies, Al usar este sitio web, acepta automáticamente que usemos cookies"; // Description
+var purecookieLink = '&lt;a href="/aviso-de-cookies/" rel="nofollow" target="_blank">Saber Mas&lt;/a>'; // Cookiepolicy link
+var purecookieButton = "Ok, Entiendo"; // Button text
+// ---        --- //
+
+
+function pureFadeIn(elem, display){
+  var el = document.getElementById(elem);
+  el.style.opacity = 0;
+  el.style.display = display || "block";
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .02) > 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+function pureFadeOut(elem){
+  var el = document.getElementById(elem);
+  el.style.opacity = 1;
+
+  (function fade() {
+    if ((el.style.opacity -= .02) &lt; 0) {
+      el.style.display = "none";
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+};
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i &lt; ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+
+function cookieConsent() {
+  if (!getCookie('purecookieDismiss')) {
+    document.body.innerHTML += '&lt;div class="cookieConsentContainer" id="cookieConsentContainer">&lt;div class="cookieTitle">&lt;a>' + purecookieTitle + '&lt;/a>&lt;/div>&lt;div class="cookieDesc">&lt;p>' + purecookieDesc + ' ' + purecookieLink + '&lt;/p>&lt;/div>&lt;div class="cookieButton">&lt;a onClick="purecookieDismiss();">' + purecookieButton + '&lt;/a>&lt;/div>&lt;/div>';
+	pureFadeIn("cookieConsentContainer");
+  }
+}
+
+function purecookieDismiss() {
+  setCookie('purecookieDismiss','1',7);
+  pureFadeOut("cookieConsentContainer");
+}
+
+window.onload = function() { cookieConsent(); };
+&lt;/script>
+        &lt;!-- fin cookies --></code></pre>
+
+
+
+<p>Solo tienes que <strong>copiar y pegar</strong> al final del archivo footer.php de tu página y <strong>crear la pagina con la url «/aviso-de-cookies/»</strong></p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/">Política de Cookies Sin Plugins en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/politica-cookies-sin-plugins-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Desactivar la Actualización de un Plugin en WordPress</title>
+		<link>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 08:59:43 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=317</guid>
+
+					<description><![CDATA[<p>Hay varios motivos por los cuales no actualizar un plugin de WordPress, tú ya me entiendes&#8230; Si no quieres ver todo el rato en tu panel de administrador de worpresss...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/">Desactivar la Actualización de un Plugin en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Hay varios motivos por los cuales <strong>no actualizar un plugin de WordPress</strong>, tú ya me entiendes&#8230;</p>
+
+
+
+<p>Si no quieres ver todo el rato en tu panel de administrador de worpresss <strong>ese molesto aviso</strong>, puedes utilizar añadir este código en el archivo fuction.php y eliminarlo para siempre.</p>
+
+
+
+<p>Solo tienes que cambiar el «akismet/akismet.php» por la ruta del plugin que no quieres que se actualice.</p>
+
+
+
+<pre class="wp-block-code"><code>function filter_plugin_updates( $value ) {
+    unset( $value->response['akismet/akismet.php'] );
+    return $value;
+}
+add_filter( 'site_transient_update_plugins', 'filter_plugin_updates' );
+</code></pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/">Desactivar la Actualización de un Plugin en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/desactivar-la-actualizacion-de-un-plugin-en-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Modificar Páginas Según su Url en WordPress</title>
+		<link>https://noteando.com/codigos-php/modificar-paginas-segun-su-url-en-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/modificar-paginas-segun-su-url-en-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Fri, 23 Nov 2018 20:02:23 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=201</guid>
+
+					<description><![CDATA[<p>Si necesitas insertar un código en una o varias paginas especificas en wordpress puedes introducir este código en el archivo footer.php En ocasiones queremos insertar un banner, un anuncio o...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/modificar-paginas-segun-su-url-en-wordpress/">Modificar Páginas Según su Url en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si necesitas insertar un código en una o varias paginas especificas en wordpress puedes introducir este código en el archivo footer.php</p>
+<p>En ocasiones queremos insertar un banner, un anuncio o algún otro elemento en paginas especificas sin tener que modificar la plantilla.</p>
+<p>El funcionamiento de este pequeño código es simple, en el array introducimos una lista de url en las que queramos que suceda algo o que no.</p>
+<p>Solo hay que rellenar las condiciones if y else.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php">&lt;?php if( is_page( array( 'aviso-legal', 'contact')))
+{ 
+
+echo 'Si es una de las paginas se ejecuta ';
+
+} else { 
+
+echo 'En caso de que no este en la lista ' ;
+
+}
+; ?&gt;
+
+</pre>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/modificar-paginas-segun-su-url-en-wordpress/">Modificar Páginas Según su Url en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/modificar-paginas-segun-su-url-en-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Redirección Aleatorio con PHP (SENCILLA)</title>
+		<link>https://noteando.com/codigos-php/redireccion-aleatorio-con-php-sencilla/</link>
+					<comments>https://noteando.com/codigos-php/redireccion-aleatorio-con-php-sencilla/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 12:04:17 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=164</guid>
+
+					<description><![CDATA[<p>Est es una redirección aleatoria creada en php para que envías a tus usuarios diferentes paginas por ejemplo para hacer test de conversión. &#60;?php $urls = array("noteando.com", "noteando.com/python/como-hacer-comentarios-en-python-solucion/", "noteando.com/python/selenium-navegador-basico-ejemplo/"); $url...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/redireccion-aleatorio-con-php-sencilla/">Redirección Aleatorio con PHP (SENCILLA)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Est es una redirección aleatoria creada en php para que envías a tus usuarios diferentes paginas por ejemplo para hacer test de conversión.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php">&lt;?php 
+$urls = array("noteando.com", 
+              "noteando.com/python/como-hacer-comentarios-en-python-solucion/", 
+              "noteando.com/python/selenium-navegador-basico-ejemplo/"); 
+$url = $urls[array_rand($urls)]; 
+header("Location: http://$url/"); 
+?&gt;</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/redireccion-aleatorio-con-php-sencilla/">Redirección Aleatorio con PHP (SENCILLA)</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/redireccion-aleatorio-con-php-sencilla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Redirección básico según el Sitema Operativo en PHP</title>
+		<link>https://noteando.com/codigos-php/redireccion-basico-por-sistema-operativo-en-php/</link>
+					<comments>https://noteando.com/codigos-php/redireccion-basico-por-sistema-operativo-en-php/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 11:35:00 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<category><![CDATA[Redirecciones]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=155</guid>
+
+					<description><![CDATA[<p>Si quieres redirigir a tus usuarios según el User Agent este codigo en php lo detecta y lo redirige según tus necesidades. &#60;?php $atl_user_agent = $_SERVER['HTTP_USER_AGENT']; if (preg_match('/windows&#124;win32/i', $atl_user_agent)) {...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/redireccion-basico-por-sistema-operativo-en-php/">Redirección básico según el Sitema Operativo en PHP</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si quieres redirigir a tus usuarios según el User Agent este codigo en php lo detecta y lo redirige según tus necesidades.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php">&lt;?php
+
+$atl_user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+if (preg_match('/windows|win32/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://microsoft.com/"&gt;';
+}
+else if (preg_match('/macintosh|mac os x/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://apple.com/"&gt;';
+} 
+else if (preg_match('/linux/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://linux.com/"&gt;';
+}
+if (preg_match('/iphone/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http:/apple.com"&gt;';
+} 
+else if (preg_match('/android/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=google.com"&gt;';
+} 
+else if (preg_match('/blackberry/i', $atl_user_agent)) {
+} else if (preg_match('/webos/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://blackberry.com/"&gt;';
+} 
+else if (preg_match('/ipod/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://apple.com/"&gt;';
+} 
+else if (preg_match('/ipad/i', $atl_user_agent)) {
+    echo '&lt;meta http-equiv="refresh" content="0; url=http://apple.com/"&gt;';
+}
+
+?&gt;</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/redireccion-basico-por-sistema-operativo-en-php/">Redirección básico según el Sitema Operativo en PHP</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/redireccion-basico-por-sistema-operativo-en-php/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Enviar directamente a Amazon con Woocommerce y WordPress</title>
+		<link>https://noteando.com/codigos-php/enviar-directamente-a-amazon-con-woocommerce-y-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/enviar-directamente-a-amazon-con-woocommerce-y-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 11:21:09 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<category><![CDATA[Woocomerce]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=148</guid>
+
+					<description><![CDATA[<p>Si tienes el plugin de Woocomerce instalado en tu WordPress y quieres enviar directamente a tus visitantes directamente a amazon con woocommerce sin pasar por la página de productos puedes...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/enviar-directamente-a-amazon-con-woocommerce-y-wordpress/">Enviar directamente a Amazon con Woocommerce y WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si tienes el plugin de Woocomerce instalado en tu WordPress y quieres enviar directamente a tus visitantes directamente a amazon con woocommerce sin pasar por la página de productos puedes utilizar este código.</p>
+<p>El código hay que añadirlo al archivo functions.php</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php">remove_action( 'woocommerce_before_shop_loop_item', 'woocommerce_template_loop_product_link_open', 10 );
+add_action( 'woocommerce_before_shop_loop_item', 'woocommerce_link_nofollow_to_amazon', 10 );
+
+function woocommerce_link_nofollow_to_amazon() {
+  global $product;
+  if ( $product-&gt;is_type('external') ) {
+    echo '&lt;a target="_blank" rel="nofollow" class="woocommerce-LoopProduct-link" href="' . $product-&gt;get_product_url() . '"&gt;';
+   	}else{
+   		echo '&lt;a href="' . get_the_permalink() . '" class="woocommerce-LoopProduct-link"&gt;';
+   	}
+}</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/enviar-directamente-a-amazon-con-woocommerce-y-wordpress/">Enviar directamente a Amazon con Woocommerce y WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/enviar-directamente-a-amazon-con-woocommerce-y-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Modifica los títulos de las categoria en Worpress con el numero de artículos</title>
+		<link>https://noteando.com/codigos-php/modifica-los-titulos-de-las-categoria-en-worpress-con-el-numero-de-articulos/</link>
+					<comments>https://noteando.com/codigos-php/modifica-los-titulos-de-las-categoria-en-worpress-con-el-numero-de-articulos/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 11:11:27 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=144</guid>
+
+					<description><![CDATA[<p>Si quieres que tu pagina de categorias y de etiquetas tenga un contador dinamico en el título de tu wordpress muestre el número de artículos que tiene este es código...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/modifica-los-titulos-de-las-categoria-en-worpress-con-el-numero-de-articulos/">Modifica los títulos de las categoria en Worpress con el numero de artículos</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si quieres que tu pagina de categorias y de etiquetas tenga un contador dinamico en el título de tu wordpress muestre el número de artículos que tiene este es código php que tienes que utilizar.</p>
+<p>Para que funcione necesitas tener instalado el <a href="https://es.wordpress.org/plugins/wordpress-seo/">Seo by Yoast</a> y este código hay que insertarlo en el archivo functions.php de wordpress.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php"># Este codigo es para modificar la pagina de categoria
+
+add_filter('wpseo_title', 'filter_pagetitle_category');
+  function filter_pagetitle_category($title) {
+    if (is_category()) {
+      $category = get_category(get_query_var('cat'));
+      $count = $category-&gt;category_count;
+      $title = single_cat_title('', false) . " - " . $count . " codigos fáciles - Noteando.com";
+    }
+    return $title;
+  }
+
+# Este codigo es para modificar la pagina de etiquetas o tag
+
+add_filter('wpseo_title', 'filter_pagetitle_tag');
+  function filter_pagetitle_tag($title) {
+    
+    if(is_tag()) {
+      $tag = get_term_by('slug',get_query_var('tag'),'post_tag');
+      $count = $tag-&gt;count;
+      $title = single_tag_title('', false) . " - " . $count . " codigos fáciles - Noteando.com";
+}
+return $title;
+}
+
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/modifica-los-titulos-de-las-categoria-en-worpress-con-el-numero-de-articulos/">Modifica los títulos de las categoria en Worpress con el numero de artículos</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/modifica-los-titulos-de-las-categoria-en-worpress-con-el-numero-de-articulos/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hacer una redirección después de hacer un comentario en WordPress</title>
+		<link>https://noteando.com/codigos-php/hacer-una-redireccion-despues-de-hacer-un-comentario-en-wordpress/</link>
+					<comments>https://noteando.com/codigos-php/hacer-una-redireccion-despues-de-hacer-un-comentario-en-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Francisco Lopez]]></dc:creator>
+		<pubDate>Sun, 11 Nov 2018 10:59:22 +0000</pubDate>
+				<category><![CDATA[Php]]></category>
+		<category><![CDATA[Redirecciones]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">https://noteando.com/?p=142</guid>
+
+					<description><![CDATA[<p>Si utilizas wordpress y quieres enviar a un usuario a una página en particular después de que haga un comentario en tu página, puedes utilizar este código en php, lo...</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/hacer-una-redireccion-despues-de-hacer-un-comentario-en-wordpress/">Hacer una redirección después de hacer un comentario en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Si utilizas wordpress y quieres enviar a un usuario a una página en particular después de que haga un comentario en tu página, puedes utilizar este código en php, lo tienes que insertar en el archivo funtions.php de tu wordpress.</p>
+<pre class="EnlighterJSRAW" data-enlighter-language="php">//redireccionar despues de comentar
+add_filter('comment_post_redirect', 'redirect_after_comment');
+function redirect_after_comment($location)
+{
+header('Location: https://noteando.com/');
+}</pre>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://noteando.com/codigos-php/hacer-una-redireccion-despues-de-hacer-un-comentario-en-wordpress/">Hacer una redirección después de hacer un comentario en WordPress</a> se publicó primero en <a rel="nofollow" href="https://noteando.com">NOTEando</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://noteando.com/codigos-php/hacer-una-redireccion-despues-de-hacer-un-comentario-en-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

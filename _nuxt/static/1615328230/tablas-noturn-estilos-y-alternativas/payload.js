@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tablas-noturn-estilos-y-alternativas", {data:[{}],fetch:{},mutations:void 0});

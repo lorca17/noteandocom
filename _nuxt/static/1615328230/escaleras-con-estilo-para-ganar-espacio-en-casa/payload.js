@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/escaleras-con-estilo-para-ganar-espacio-en-casa", {data:[{}],fetch:{},mutations:void 0});

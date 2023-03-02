@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-hacer-jabon-artesanal", {data:[{}],fetch:{},mutations:void 0});

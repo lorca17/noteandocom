@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decora-tu-estancia-con-buques", {data:[{}],fetch:{},mutations:void 0});

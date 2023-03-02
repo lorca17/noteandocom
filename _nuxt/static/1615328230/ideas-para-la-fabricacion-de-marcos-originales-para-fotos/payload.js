@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ideas-para-la-fabricacion-de-marcos-originales-para-fotos", {data:[{}],fetch:{},mutations:void 0});

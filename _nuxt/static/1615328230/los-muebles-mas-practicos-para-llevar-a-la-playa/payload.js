@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/los-muebles-mas-practicos-para-llevar-a-la-playa", {data:[{}],fetch:{},mutations:void 0});

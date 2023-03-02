@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-saber-si-los-muebles-son-viejos", {data:[{}],fetch:{},mutations:void 0});

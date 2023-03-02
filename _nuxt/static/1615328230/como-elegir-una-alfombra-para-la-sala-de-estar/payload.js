@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-elegir-una-alfombra-para-la-sala-de-estar", {data:[{}],fetch:{},mutations:void 0});

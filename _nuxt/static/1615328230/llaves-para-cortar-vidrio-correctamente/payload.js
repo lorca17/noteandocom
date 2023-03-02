@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/llaves-para-cortar-vidrio-correctamente", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reparar-los-azulejos-deteriorados", {data:[{}],fetch:{},mutations:void 0});

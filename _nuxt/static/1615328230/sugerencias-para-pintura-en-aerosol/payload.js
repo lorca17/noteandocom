@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sugerencias-para-pintura-en-aerosol", {data:[{}],fetch:{},mutations:void 0});

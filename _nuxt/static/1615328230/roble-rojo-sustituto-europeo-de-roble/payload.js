@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/roble-rojo-sustituto-europeo-de-roble", {data:[{}],fetch:{},mutations:void 0});

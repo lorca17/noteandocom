@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/saponaria-una-planta-con-propiedades-para-la-limpieza", {data:[{}],fetch:{},mutations:void 0});

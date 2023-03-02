@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/centros-de-mesa-para-establecer-comidas-y-cenas", {data:[{}],fetch:{},mutations:void 0});

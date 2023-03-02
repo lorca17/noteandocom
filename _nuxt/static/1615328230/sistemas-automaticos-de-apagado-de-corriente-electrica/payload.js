@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sistemas-automaticos-de-apagado-de-corriente-electrica", {data:[{}],fetch:{},mutations:void 0});

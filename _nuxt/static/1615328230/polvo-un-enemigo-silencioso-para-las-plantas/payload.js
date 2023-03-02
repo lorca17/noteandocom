@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/polvo-un-enemigo-silencioso-para-las-plantas", {data:[{}],fetch:{},mutations:void 0});

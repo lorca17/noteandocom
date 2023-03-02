@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instale-un-riel-de-toallas-en-el-bano", {data:[{}],fetch:{},mutations:void 0});

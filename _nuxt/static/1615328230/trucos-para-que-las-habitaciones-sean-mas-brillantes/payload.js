@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/trucos-para-que-las-habitaciones-sean-mas-brillantes", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/begonia-una-planta-atractiva-para-sus-flores-y-su-follaje", {data:[{}],fetch:{},mutations:void 0});

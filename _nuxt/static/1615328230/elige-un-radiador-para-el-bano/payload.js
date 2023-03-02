@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/elige-un-radiador-para-el-bano", {data:[{}],fetch:{},mutations:void 0});

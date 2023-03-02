@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fijaciones-para-paredes-de-cuevas", {data:[{}],fetch:{},mutations:void 0});

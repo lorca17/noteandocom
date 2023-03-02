@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/como-y-donde-guardar-juguetes-en-las-habitaciones-de-los-ninos", {data:[{}],fetch:{},mutations:void 0});

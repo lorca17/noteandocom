@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/utilidades-y-aplicaciones-de-pintura-retardantes-de-llama", {data:[{}],fetch:{},mutations:void 0});

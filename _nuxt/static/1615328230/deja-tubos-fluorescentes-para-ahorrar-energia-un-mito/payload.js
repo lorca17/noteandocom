@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/deja-tubos-fluorescentes-para-ahorrar-energia-un-mito", {data:[{}],fetch:{},mutations:void 0});

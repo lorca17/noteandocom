@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/trucos-para-un-lijado-mas-facil", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/envolturas-mas-sostenibles-para-regalos-de-navidad", {data:[{}],fetch:{},mutations:void 0});

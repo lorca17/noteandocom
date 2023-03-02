@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/olvidate-no-no-importa-una-pequena-flor-desafiante", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/un-jardin-libre-de-insectos", {data:[{}],fetch:{},mutations:void 0});

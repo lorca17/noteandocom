@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/usos-y-posibilidad-de-muebles-de-tela", {data:[{}],fetch:{},mutations:void 0});

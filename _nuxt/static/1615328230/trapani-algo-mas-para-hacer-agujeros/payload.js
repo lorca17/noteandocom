@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/trapani-algo-mas-para-hacer-agujeros", {data:[{}],fetch:{},mutations:void 0});
